@@ -1,0 +1,25 @@
+.full-part {
+    top: 50%;
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.first-part {
+    background-color: #12585a;
+    border-right: 150px solid white;
+    border-bottom: 399px solid transparent;
+}
+
+.second-part {
+    width: 2800px;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 100% 1700px);
+}
+
+.title {
+    margin: 4%;
+}
+
+.paragraph {
+    margin: 4%;
+}
