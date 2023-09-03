@@ -9,7 +9,6 @@ const NavBar = () => {
     return (
         <div className="navbar" >
             <div className="navbar-start test -mb-2">
-                {/* <label className='hamburger' style={{ backgroundColor: 'rgb(212,175,55)' }}> */}
                 <label className='hamburger'>
                     <input type="checkbox" className='input-check' />
                     <div className='toggle'>
@@ -20,7 +19,6 @@ const NavBar = () => {
                     <ul className="drop " style={{ backgroundColor: '#12585a' }}>
                         <li><Link to='/' className='ml-3 text-white'>Home</Link></li>
                         <li><Link to='/about' className='ml-3 text-white'>About</Link></li>
-                        {/* <li><Link to='/team' className='ml-3 text-white'>Our Teams</Link></li> */}
                         <li><Link to='/service' className='ml-3 text-white'>Services</Link></li>
                         <li><Link to='/contact' className='ml-3 text-white'>Contact</Link></li>
                     </ul>

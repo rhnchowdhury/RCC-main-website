@@ -12,8 +12,8 @@ const Message = () => {
                 <h1 className='text-4xl font-medium '>CONTACT US</h1>
                 <p className='text-lg  mt-4'>Reach out and connect with us! Whether you have questions, feedback, or simply <br /> want to get in touch, we're here to listen and assist.</p>
             </div>
-            <div className='grid grid-cols-3 mx-12 mt-5 gap-12'>
-                <div className="card w-96 text-primary-content " style={{ backgroundColor: '#12585a' }}>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:mx-12 mt-5 gap-12'>
+                <div className="card lg:w-96 text-primary-content " style={{ backgroundColor: '#12585a' }}>
                     <div className="card-body">
                         <span className='flex justify-center'><FaMobileAlt className='w-12 h-10 text-white' ></FaMobileAlt></span>
                         <p className='text-center text-xl font-semibold text-white' >Phone</p>
@@ -21,7 +21,7 @@ const Message = () => {
                         <p className='text-center text-white' >+8801716688069</p>
                     </div>
                 </div>
-                <div className="card w-96 text-primary-content" style={{ backgroundColor: '#12585a' }}>
+                <div className="card lg:w-96 text-primary-content" style={{ backgroundColor: '#12585a' }}>
                     <div className="card-body">
                         <span className='flex justify-center'><IoLocationSharp className='w-12 h-10 text-white' ></IoLocationSharp> </span>
                         <p className='text-center text-xl font-semibold text-white' >Address</p>
@@ -29,7 +29,7 @@ const Message = () => {
 
                     </div>
                 </div>
-                <div className="card w-96 text-primary-content" style={{ backgroundColor: '#12585a' }}>
+                <div className="card lg:w-96 text-primary-content" style={{ backgroundColor: '#12585a' }}>
                     <div className="card-body">
                         <span className='flex justify-center'><MdAlternateEmail className='w-12 h-10 text-white' ></MdAlternateEmail></span>
                         <p className='text-center text-xl font-semibold text-white' >Email</p>

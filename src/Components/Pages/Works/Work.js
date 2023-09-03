@@ -18,7 +18,7 @@ const Work = () => {
                 <p className='text-lg mt-4'>We are a dedicated team committed to providing you with exceptional <br /> solutions and top-notch services.</p>
             </div>
             <div className='m-12'>
-                <div className='grid grid-cols-4 gap-3'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3'>
                     <div className='div-1 '>
                         <img src={img1} alt="" className='opacity-50 hover:opacity-100' style={{ height: '394px' }} />
                     </div>
