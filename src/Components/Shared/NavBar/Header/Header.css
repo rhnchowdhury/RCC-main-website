@@ -4,6 +4,22 @@
     width: 100%;
     display: flex;
 }
+@media screen and (max-width:480px) {
+    .full-part{
+        /* width: 100%;
+        display: block; */
+        display: none;
+    }
+    .first-part {
+        background-color: #12585a;
+        border-right: 150px solid white;
+        border-bottom: 399px solid transparent;
+    }
+    .second-part {
+        width: 2800px;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 100% 1700px);
+    }
+}
 
 .first-part {
     background-color: #12585a;

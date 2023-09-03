@@ -6,10 +6,10 @@ import { AiOutlineUserSwitch } from "react-icons/ai";
 const Goal = () => {
     return (
         <section>
-            <div className='text-center mt-2'>
+            <div className='text-center mt-8'>
                 <h1 className=" text-4xl font-medium">WHAT WE DO</h1>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 ml-12 my-4'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 lg:ml-12 my-4'>
                 <div className="card w-96">
                     <div className="card-body" style={{ backgroundColor: '#12585a' }}>
                         <span className='flex justify-center'><GrAnnounce className="w-12 h-12 rounded-full" style={{ backgroundColor: 'white' }}></GrAnnounce></span>
