@@ -1,0 +1,21 @@
+.work-img{
+    height: 394px;
+}
+.work-img-size{
+    height: 394px;
+    margin-top: -89px;
+}
+@media screen and (max-width:576px) {
+    .work-img{
+        height: 300px;
+    }
+    .work-img-size{
+        height: 300px;
+        margin-top: 0px;
+    }
+}
+@media  screen and (min-width: 768px) {
+    .work-img-resize{
+        margin-top: -45px;
+    }
+}

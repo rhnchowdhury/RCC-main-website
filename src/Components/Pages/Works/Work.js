@@ -8,6 +8,7 @@ import img6 from '../../../Client work/Post-61_16-10-2022.png';
 import img7 from '../../../Client work/Post-03_04-04-2023.png';
 import img8 from '../../../Client work/SLI - Apr 20.jpg';
 import { Link } from 'react-router-dom';
+import './work.css';
 
 const Work = () => {
     return (
@@ -20,29 +21,29 @@ const Work = () => {
             <div className='mt-6 mx-12'>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3'>
                     <div className='div-1 '>
-                        <img src={img1} alt="" className='opacity-50 hover:opacity-100' style={{ height: '394px' }} />
+                        <img src={img1} alt="" className='opacity-50 hover:opacity-100 work-img'/>
                     </div>
                     <div className=''>
                         <img src={img2} alt="" className='opacity-50 hover:opacity-100' />
                     </div>
                     <div >
-                        <img src={img3} alt="" className='opacity-50 hover:opacity-100' style={{ height: '394px' }} />
+                        <img src={img3} alt="" className='opacity-50 hover:opacity-100 work-img'/>
                     </div>
                     <div >
-                        <img src={img4} alt="" className='opacity-50 hover:opacity-100' />
+                        <img src={img4} alt="" className='opacity-50 hover:opacity-100 work-img-resize' />
                     </div>
                     <div >
                         <img src={img5} alt="" className='opacity-50 hover:opacity-100' />
                     </div>
 
                     <div >
-                        <img src={img6} alt="" className='opacity-50 hover:opacity-100' style={{ height: '394px', marginTop: '-89px' }} />
+                        <img src={img6} alt="" className='opacity-50 hover:opacity-100 work-img-size'/>
                     </div>
                     <div >
                         <img src={img7} alt="" className='opacity-50 hover:opacity-100' />
                     </div>
                     <div >
-                        <img src={img8} alt="" className='opacity-50 hover:opacity-100' style={{ height: '394px', marginTop: '-89px' }} />
+                        <img src={img8} alt="" className='opacity-50 hover:opacity-100 work-img-size work-img-resize'/>
                     </div>
                 </div>
                 <div className='flex justify-center mt-5' >
