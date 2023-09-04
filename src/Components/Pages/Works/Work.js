@@ -30,7 +30,7 @@ const Work = () => {
                         <img src={img3} alt="" className='opacity-50 hover:opacity-100 work-img'/>
                     </div>
                     <div >
-                        <img src={img4} alt="" className='opacity-50 hover:opacity-100 work-img-resize' />
+                        <img src={img4} alt="" className='opacity-50 hover:opacity-100' />
                     </div>
                     <div >
                         <img src={img5} alt="" className='opacity-50 hover:opacity-100' />
@@ -43,7 +43,7 @@ const Work = () => {
                         <img src={img7} alt="" className='opacity-50 hover:opacity-100' />
                     </div>
                     <div >
-                        <img src={img8} alt="" className='opacity-50 hover:opacity-100 work-img-size work-img-resize'/>
+                        <img src={img8} alt="" className='opacity-50 hover:opacity-100 work-img-size '/>
                     </div>
                 </div>
                 <div className='flex justify-center mt-5' >

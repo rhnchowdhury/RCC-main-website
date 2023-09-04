@@ -14,8 +14,3 @@
         margin-top: 0px;
     }
 }
-@media  screen and (min-width: 768px) {
-    .work-img-resize{
-        margin-top: -45px;
-    }
-}
