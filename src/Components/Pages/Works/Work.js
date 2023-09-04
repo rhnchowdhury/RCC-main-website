@@ -14,10 +14,10 @@ const Work = () => {
         <section>
             <p className='text-center'>PORTFOLIO</p>
             <div className='text-center'>
-                <h1 className=" text-4xl font-medium">OUR WORK</h1>
-                <p className='text-lg mt-4'>We are a dedicated team committed to providing you with exceptional <br /> solutions and top-notch services.</p>
+                <h1 className="text-3xl lg:text-4xl font-medium">OUR WORK</h1>
+                <p className='lg:text-lg mt-2'>We are a dedicated team committed to providing you with exceptional <br /> solutions and top-notch services.</p>
             </div>
-            <div className='m-12'>
+            <div className='mt-6 mx-12'>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3'>
                     <div className='div-1 '>
                         <img src={img1} alt="" className='opacity-50 hover:opacity-100' style={{ height: '394px' }} />

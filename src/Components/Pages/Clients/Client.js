@@ -32,9 +32,9 @@ import './Client.css';
 
 const Client = () => {
     return (
-        <section className='my-5'>
-            <h1 className="text-center text-4xl font-medium">OUR CLIENT</h1>
-            <p className='text-center my-5'>As a marketing agency, we have had the privilege of working with a diverse range of clients across various <br /> industries with unique marketing needs and objectives.</p>
+        <section className='mt-8'>
+            <h1 className="text-center text-3xl lg:text-4xl font-medium">OUR CLIENT</h1>
+            <p className='text-center mt-2'>As a marketing agency, we have had the privilege of working with a diverse range of clients across various <br /> industries with unique marketing needs and objectives.</p>
             <div className='slider'>
                 <div className='slide-track'>
                     <div className='slide'>

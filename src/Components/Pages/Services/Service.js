@@ -6,13 +6,13 @@ import logo4 from '../../../logo/video-1.png';
 
 const Service = () => {
     return (
-        <section className=''>
+        <section className='mt-8'>
             <p className='text-center'>WHAT CAN WE DO</p>
             <div className='text-center'>
-                <h1 className=" text-4xl font-medium">OUR SERVICES</h1>
-                <p className='text-lg mt-4'>We are a dedicated team committed to providing you with exceptional <br /> solutions and top-notch services.</p>
+                <h1 className="text-3xl lg:text-4xl font-medium">OUR SERVICES</h1>
+                <p className='lg:text-lg mt-2'>We are a dedicated team committed to providing you with exceptional <br /> solutions and top-notch services.</p>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-8 mx-12'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-6 mx-12'>
                 <div className="card w-72 text-primary-content" style={{ backgroundColor: '#12585a' }}>
                     <div className="card-body">
                         <span className='flex justify-center'><img src={logo1} alt="content" className="w-12 h-12" style={{ backgroundColor: "white" }} /></span>

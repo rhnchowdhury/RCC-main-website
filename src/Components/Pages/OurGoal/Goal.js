@@ -7,24 +7,24 @@ const Goal = () => {
     return (
         <section>
             <div className='text-center mt-8'>
-                <h1 className=" text-4xl font-medium">WHAT WE DO</h1>
+                <h1 className="text-3xl lg:text-4xl font-medium">WHAT WE DO</h1>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 lg:ml-12 my-4'>
-                <div className="card w-96">
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mx-12 mt-6'>
+                <div className="card w-72 lg:w-96">
                     <div className="card-body" style={{ backgroundColor: '#12585a' }}>
                         <span className='flex justify-center'><GrAnnounce className="w-12 h-12 rounded-full" style={{ backgroundColor: 'white' }}></GrAnnounce></span>
                         <h1 className='text-center text-xl font-medium text-white'>Aware</h1>
                         <p className='text-center text-white'>As a marketing agency, it is essential for us to recognize the significance of awareness in our day-to-day operations.</p>
                     </div>
                 </div>
-                <div className="card w-96">
+                <div className="card w-72 lg:w-96">
                     <div className="card-body" style={{ backgroundColor: '#12585a' }}>
                         <span className='flex justify-center'><AiOutlineUserSwitch className="w-12 h-12 rounded-full" style={{ backgroundColor: 'white' }} ></AiOutlineUserSwitch></span>
                         <h1 className='text-center text-xl font-medium text-white'>Engage</h1>
                         <p className='text-center text-white'>Engagement is a critical factor that refers to the level of involvement, interaction, and connection between our brands and our target audience.</p>
                     </div>
                 </div>
-                <div className="card w-96">
+                <div className="card w-72 lg:w-96">
                     <div className="card-body" style={{ backgroundColor: '#12585a' }}>
                         <span className='flex justify-center'><FaUsers className="w-12 h-12 rounded-full" style={{ backgroundColor: 'white' }}></FaUsers></span>
                         <h1 className='text-center text-xl font-medium text-white'>Retention</h1>

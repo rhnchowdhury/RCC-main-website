@@ -1,10 +1,10 @@
 .slider {
-    height: 258px;
-    margin: auto;
+    /* height: 258px; */
+    margin: 0 auto;
     position: relative;
     width: 90%;
     display: grid;
-    place-items: center;
+    /* place-items: center; */
     overflow: hidden;
 }
 
