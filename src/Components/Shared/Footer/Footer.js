@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className='mt-8'>
-            <footer className="footer footer-center p-5 text-base-content rounded" style={{ backgroundColor: '#12585a' }}>
+        <div style={{ backgroundColor: "#222222" }}>
+            <footer className="footer footer-center p-5 text-base-content" style={{ backgroundColor: '#222222', borderTop: '1px solid rgba(255,255,255,0.2)' }}>
                 <div className='mt-4'>
                     <div className="grid grid-flow-col gap-4">
                         <button className='text-white rounded-full'><Link to='https://www.facebook.com/Raincloudcommunications' target="_blank" rel="noopener noreferrer"><BsFacebook className='w-8 h-8'></BsFacebook></Link> </button>

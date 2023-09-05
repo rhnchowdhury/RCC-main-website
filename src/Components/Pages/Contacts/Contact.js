@@ -1,53 +1,42 @@
 import React from 'react';
-import { FcCellPhone } from "react-icons/fc";
-import { AiOutlineMail } from "react-icons/ai";
-import { RiUserLocationLine } from "react-icons/ri";
-import Map from './Map';
+import { FaLocationDot } from "react-icons/fa6";
+// import Map from './Map';
+import './contact.css';
 
 const Contact = () => {
     return (
-        <section className='my-10'>
-            <div className='flex mx-12'>
-                <div>
-                    <div className='flex mt-8'>
-                        <span className=''><FcCellPhone className='w-8 h-12'></FcCellPhone></span>
-                        <div className='ml-2'>
-                            <p>PHONE</p>
-                            <p>+8801777750875</p>
-                        </div>
-                    </div>
-                    <div className='flex mt-8'>
-                        <AiOutlineMail className='w-8 h-12'></AiOutlineMail>
-                        <div className='ml-2'>
-                            <p>EMAIL:</p>
-                            <p>raincloud.hr@gmail.com</p>
-                        </div>
-                    </div>
-                    <div className='flex mt-8'>
-                        <RiUserLocationLine className='w-8 h-12'></RiUserLocationLine>
-                        <div className='ml-2'>
-                            <p>OFFICE:</p>
-                            <p>Rangs Shawpnil, Level 5, House 2, Road ⅔, Banani, Dhaka 1213</p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div className='grid grid-cols-2 gap-5 ml-56'>
-                        <input type="text" placeholder="Your Name" className="input input-bordered w-full max-w-xs" />
-                        <input type="text" placeholder="Email Address" className="input input-bordered w-full max-w-xs" />
-                        <input type="text" placeholder="Phone" className="input input-bordered w-full max-w-xs" />
-                        <input type="text" placeholder="Subject" className="input input-bordered w-full max-w-xs" />
-                    </div>
-                    <div className='ml-56 mt-4'>
-                        <textarea placeholder="Write Message" className="textarea textarea-bordered textarea-lg h-40  w-full" ></textarea>
-                        <button className="btn btn-warning mt-5">SEND A MESSAGE</button>
-                    </div>
 
-                </div>
-
+        <section className='contact-section'>
+            <div className='bg-black h-96'>
+                <h1>tmi</h1>
             </div>
-            <div className='my-5'>
-                <Map></Map>
+            <div className='contact-back-overlay'>
+            </div>
+            <div className='contact-div mx-32 py-20 '>
+                <div >
+                    <h2 className='text-white contact-title'>Let's build amazing things together</h2>
+                    <span className='flex mt-10'>
+                        <FaLocationDot className='icon text-lg mt-2'></FaLocationDot>
+                        <h6 className='text-lg font-bold ml-2 text-white'>Dhaka</h6>
+                    </span>
+                    <p className='text-base font-bold  text-white'>Rangs Shawpnil</p>
+                    <p className='font-bold text-white'> Level 5, House 2, Road ⅔, Banani, Dhaka 1213</p>
+                    <p className='font-bold text-white'>+8801777750875</p>
+                    <p className='font-bold text-white'>raincloud.hr@gmail.com</p>
+                </div>
+                <div className='p-16 mt-44 message-div'>
+                    <div className=' grid grid-cols-1 gap-5'>
+                        <span className='flex space-x-3'>
+                            <input type="text" placeholder="First Name" className="input input-bordered w-full max-w-xs" />
+                            <input type="text" placeholder="Last Name" className="input input-bordered w-full max-w-xs" />
+                        </span>
+                        <input type="text" placeholder="Email Address" className="input input-bordered w-full" />
+                    </div>
+                    <div className=' mt-4'>
+                        <textarea placeholder="Write Message" className="textarea textarea-bordered textarea-lg h-40  w-full" ></textarea>
+                        <button className="btn-design mt-2 text">SEND</button>
+                    </div>
+                </div>
             </div>
         </section>
     );

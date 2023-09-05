@@ -1,0 +1,60 @@
+.contact-section {
+
+    background-color: #676767;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, #000000 100%);
+
+}
+
+.contact-back-overlay {
+
+    background-image: url(/src/Icon/rcc-shadow.png);
+    background-attachment: fixed;
+    background-position: bottom-left;
+    background-repeat: no-repeat;
+    opacity: .05;
+    transition: background .3s, border-radius .3s, opacity .3s;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+}
+
+.contact-div {
+    display: flex;
+    position: relative;
+}
+
+.icon {
+    color: #ec4b46;
+}
+
+.message-div {
+    background-image: linear-gradient(90deg, #000000, rgba(255, 255, 255, 0.2) 190%);
+}
+
+.btn-design {
+    border: 2px solid whitesmoke;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.btn-design:hover {
+    background-color: white;
+}
+
+.text {
+    color: white;
+}
+
+.text:hover {
+    color: #ec4b46;
+}
+
+.contact-title {
+    line-height: 1.25em;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
