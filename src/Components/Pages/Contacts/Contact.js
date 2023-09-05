@@ -7,7 +7,7 @@ const Contact = () => {
     return (
 
         <section className='contact-section'>
-            <div className='bg-black h-96'>
+            <div className='bg-black contact-header'>
                 <h1>tmi</h1>
             </div>
             <div className='contact-back-overlay'>
@@ -27,13 +27,13 @@ const Contact = () => {
                 <div className='p-16 mt-44 message-div'>
                     <div className=' grid grid-cols-1 gap-5'>
                         <span className='flex space-x-3'>
-                            <input type="text" placeholder="First Name" className="input input-bordered w-full max-w-xs" />
-                            <input type="text" placeholder="Last Name" className="input input-bordered w-full max-w-xs" />
+                            <input type="text" placeholder="First Name" className="contact-input-box w-full max-w-xs" />
+                            <input type="text" placeholder="Last Name" className="contact-input-box w-full max-w-xs" />
                         </span>
-                        <input type="text" placeholder="Email Address" className="input input-bordered w-full" />
+                        <input type="text" placeholder="Email Address" className="contact-input-box w-full" />
                     </div>
                     <div className=' mt-4'>
-                        <textarea placeholder="Write Message" className="textarea textarea-bordered textarea-lg h-40  w-full" ></textarea>
+                        <textarea placeholder="Write Message" className="textarea-box textarea-lg h-40  w-full" ></textarea>
                         <button className="btn-design mt-2 text">SEND</button>
                     </div>
                 </div>

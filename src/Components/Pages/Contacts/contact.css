@@ -1,7 +1,28 @@
+.contact-header {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: relative;
+}
+
+.contact-header::before {
+    background-image: url(/src//Icon//bg-rocket.jpg);
+    /* background-attachment: fixed; */
+    /* background-position: bottom-left; */
+    background-repeat: no-repeat;
+    /* opacity: .05; */
+    transition: background .3s, border-radius .3s, opacity .3s;
+    position: absolute;
+}
+
 .contact-section {
 
     background-color: #676767;
-    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, #000000 100%);
+    background-image: linear-gradient(90deg, #494949 0%, #000000 100%);
+    /* background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, #000000 100%); */
 
 }
 
@@ -57,4 +78,14 @@
     font-size: 3rem;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
+}
+
+.contact-input-box {
+    padding: 15px;
+}
+
+.contact-input-box:focus,
+.textarea-box:focus {
+    outline: none;
+
 }
