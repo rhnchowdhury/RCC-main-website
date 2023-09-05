@@ -1,6 +1,22 @@
+.work-bg-img{
+    width: 100%;
+    position: relative;
+}
+.work-bg-img::before {
+    content: "";
+    background-image: url(/src/Icon/imaginatory-fractal-background-generated-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    filter: brightness(10%);
+}
 .img-style {
-
     transition: 1s;
+    position: relative;
 }
 
 .img-style:hover {
