@@ -1,3 +1,7 @@
+.head-section {
+    margin-top: -150px;
+}
+
 .head-part {
     background-color: black;
     height: 700px;
@@ -12,6 +16,7 @@
     height: 700px;
     width: 100%;
     position: absolute;
+
 }
 
 .head-text-six {
@@ -43,50 +48,10 @@
     background-color: white;
 }
 
-
-
-
-.full-part {
-    top: 50%;
-    height: 400px;
-    width: 100%;
-    display: flex;
+.head-text {
+    color: white;
 }
 
-@media screen and (max-width:576px) {
-    .full-part {
-        /* width: 100%;
-        display: block; */
-        display: none;
-    }
-
-    .first-part {
-        background-color: #12585a;
-        border-right: 150px solid white;
-        border-bottom: 399px solid transparent;
-    }
-
-    .second-part {
-        width: 2800px;
-        clip-path: polygon(0 0, 100% 0, 100% 0, 100% 1700px);
-    }
-}
-
-.first-part {
-    background-color: #12585a;
-    border-right: 150px solid white;
-    border-bottom: 399px solid transparent;
-}
-
-.second-part {
-    width: 2800px;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 100% 1700px);
-}
-
-.title {
-    margin: 4%;
-}
-
-.paragraph {
-    margin: 4%;
+.head-text:hover {
+    color: #ec4b46;
 }
