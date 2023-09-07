@@ -1,18 +1,16 @@
 import React from 'react';
 import './Header.css';
-import reel from '../../../../Reel/All Scene_4.mp4';
 
 const Header = () => {
     return (
-        <div className='full-part'>
-            <div className='first-part'>
-                <h1 className='lg:text-6xl font-bold text-white title'>Digital Marketing Agency</h1>
-                <p className=' text-white paragraph'>Imaginative, inspired team with contagious energy. We create impactful communication experiences that captivate and inspire. Let us bring your vision to life and take your message to new heights. We'll build and manage your online brand presence, captivate your audience.</p>
-            </div>
-            <div className='second-part'>
-                <video autoPlay loop>
-                    <source src={reel} type="video/mp4" />
-                </video>
+        <div className="hero h-96 -mt-20" style={{ backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)' }}>
+            <div className="hero-overlay bg-opacity-60"></div>
+            <div className="hero-content text-center text-neutral-content">
+                <div className="max-w-md">
+                    <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+                    <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button className="btn btn-primary">Get Started</button>
+                </div>
             </div>
         </div>
     );
