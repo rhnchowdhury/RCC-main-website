@@ -3,14 +3,15 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div className="hero h-96 -mt-20" style={{ backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)' }}>
-            <div className="hero-overlay bg-opacity-60"></div>
-            <div className="hero-content text-center text-neutral-content">
-                <div className="max-w-md">
-                    <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                    <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button className="btn btn-primary">Get Started</button>
+        <div className='head-part'>
+            <div className='head-part-bg'>
+            </div>
+            <div >
+                <div>
+                    <h6 className='head-text-six'>ADVERTISING & MARKETING AGENCY</h6>
+                    <h1 className='head-text-one'>We help <br /> brands Grow <br /> Beautifully</h1>
                 </div>
+                <button className="head-btn mt-2">GET STARTED NOW</button>
             </div>
         </div>
     );

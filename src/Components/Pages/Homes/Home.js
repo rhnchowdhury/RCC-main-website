@@ -11,7 +11,7 @@ import Work from '../Works/Work';
 const Home = () => {
     return (
         <div>
-            {/* <Header></Header> */}
+            <Header></Header>
             {/* <Creative></Creative> */}
             <Goal></Goal>
             <Service></Service>

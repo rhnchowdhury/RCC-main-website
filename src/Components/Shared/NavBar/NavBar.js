@@ -6,8 +6,7 @@ import icon from '../../../Icon/rcc-logo-trans.png';
 const NavBar = () => {
 
     return (
-        // <section className='tt'>
-        <div className="navbar tt ">
+        <div className="navbar nav-edit">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -20,7 +19,7 @@ const NavBar = () => {
                         <li><Link to='/contact' className='text-white'>Contact</Link></li>
                     </ul>
                 </div>
-                <Link><img src={icon} className='bg-black w-32' alt="" /></Link>
+                <Link><img src={icon} className=' w-32' alt="" /></Link>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -31,7 +30,6 @@ const NavBar = () => {
                 </ul>
             </div>
         </div>
-        // </section>
     );
 };
 
