@@ -11,7 +11,7 @@
 
 
 .service-icon {
-    width: 48px;
+    width: 70px;
     color: white;
 }
 
@@ -36,4 +36,15 @@
     background-color: #BFA661;
     border: 1px solid #BFA661;
     padding: 8px 23px;
+}
+
+.service-social-btn {
+    background-color: #751C57;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+
+.service-social-btn:hover {
+    background-color: #b89430;
 }
