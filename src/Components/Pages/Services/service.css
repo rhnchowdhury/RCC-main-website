@@ -1,0 +1,39 @@
+.service-div {
+
+    background-color: #751C57;
+    width: 100%;
+    height: 400px;
+}
+
+.service-element {
+    margin: 20px;
+}
+
+
+.service-icon {
+    width: 48px;
+    color: white;
+}
+
+.service-text {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.service-paragraph {
+    color: whitesmoke;
+    text-align: right;
+    margin: 20% 5% 0% 35%;
+    padding: 0 0 50px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.service-btn {
+    color: white;
+    background-color: #BFA661;
+    border: 1px solid #BFA661;
+    padding: 8px 23px;
+}

@@ -1,69 +1,40 @@
 import React from 'react';
-import img1 from '../../../logo/add-oparetion.jpeg';
-// import logo2 from '../../../logo/graphics-1.png';
-// import logo3 from '../../../logo/ads-1.png';
-// import logo4 from '../../../logo/video-1.png';
+import './service.css';
+import img1 from '../../../logo/add-operation.png';
+import img2 from '../../../logo/graphics.jpeg';
+import img3 from '../../../logo/eco.jpeg';
+import { Link } from 'react-router-dom';
 
 const Service = () => {
     return (
-        <section>
-            <div className='grid grid-cols-3'>
-                <div className='bg-red-500'>
-                    <img src={img1} alt="" />
+        <section className='p-12' style={{ backgroundColor: '#222222' }}>
+            <div className='grid grid-cols-3 gap-3 mx-16'>
+                <div className='service-div'>
+                    <div className='service-element'>
+                        <img src={img1} alt="" className='service-icon text-white' />
+                        <h1 className='service-text'>Ads & Optimization</h1>
+                        <p className='service-paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus.</p>
+                    </div>
                 </div>
-                <div className='bg-red-500'>
-                    <h1>tmi</h1>
+                <div className='service-div' style={{ backgroundColor: '#C28FB0' }}>
+                    <div className='service-element'>
+                        <img src={img2} alt="" className='service-icon text-white' />
+                        <h1 className='service-text'>Graphic Design</h1>
+                        <p className='service-paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus.</p>
+                    </div>
                 </div>
-                <div className='bg-red-500'>
-                    <h1>tmi</h1>
+                <div className='service-div'>
+                    <div className='service-element'>
+                        <img src={img3} alt="" className='service-icon text-white' />
+                        <h1 className='service-text'>Digital Eco</h1>
+                        <p className='service-paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus.</p>
+                    </div>
                 </div>
             </div>
+            <div className='flex justify-center mt-5' >
+                <Link to='/service'><button className="service-btn">SEE ALL</button></Link>
+            </div>
         </section>
-
-
-
-
-
-
-
-
-        // <section className='mt-8'>
-        //     <p className='text-center'>WHAT CAN WE DO</p>
-        //     <div className='text-center'>
-        //         <h1 className="text-3xl lg:text-4xl font-medium">OUR SERVICES</h1>
-        //         <p className='lg:text-lg mt-2'>We are a dedicated team committed to providing you with exceptional <br /> solutions and top-notch services.</p>
-        //     </div>
-        //     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-6 mx-12'>
-        //         <div className="card w-72 text-primary-content" style={{ backgroundColor: '#12585a' }}>
-        //             <div className="card-body">
-        //                 <span className='flex justify-center'><img src={logo1} alt="content" className="w-12 h-12" style={{ backgroundColor: "white" }} /></span>
-        //                 <h1 className='text-center text-xl font-medium text-white'>Content Creation</h1>
-        //                 <p className='text-center text-white'>Brainstorming innovative ideas and executing them is what content creation is about. We try to help our client to aware its audience about the brand and keep them engaged.</p>
-        //             </div>
-        //         </div>
-        //         <div className="card w-72 text-primary-content" style={{ backgroundColor: '#12585a' }}>
-        //             <div className="card-body">
-        //                 <span className='flex justify-center'><img src={logo2} alt="content" className="w-12 h-12" style={{ backgroundColor: "white" }} /></span>
-        //                 <p className='text-center text-xl font-medium text-white'>Graphic Design</p>
-        //                 <p className='text-center text-white'>Once the ideas are jotted down, it’s time for the visualizers to put them to life on the screens with eye-catching designs and animation.</p>
-        //             </div>
-        //         </div>
-        //         <div className="card w-72 text-primary-content" style={{ backgroundColor: '#12585a' }}>
-        //             <div className="card-body">
-        //                 <span className='flex justify-center'><img src={logo3} alt="content" className="w-12 h-12" style={{ backgroundColor: "white" }} /></span>
-        //                 <p className='text-center text-xl font-medium text-white'>Ads and Optimization</p>
-        //                 <p className=' text-center text-white'>Once we have the visually pleasing content ready, we promote it to its target audience to get the maximum reach and engagement.</p>
-        //             </div>
-        //         </div>
-        //         <div className="card w-72 text-primary-content" style={{ backgroundColor: '#12585a' }}>
-        //             <div className="card-body">
-        //                 <span className='flex justify-center'><img src={logo4} alt="content" className="w-12 h-12" style={{ backgroundColor: "white" }} /></span>
-        //                 <p className='text-center text-xl font-medium text-white'>Photo & Video Production</p>
-        //                 <p className='text-center text-white'>When it comes to Photography or Videography, our team works closely with the client to ensure the content meets their expectations and captures the desired brand message.</p>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </section>
     );
 };
 
