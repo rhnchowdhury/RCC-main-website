@@ -13,8 +13,8 @@ const Home = () => {
             <Service></Service>
             <Client></Client>
             <Work></Work>
-            <Team></Team>
-            <Message></Message>
+            {/* <Team></Team> */}
+            {/* <Message></Message> */}
         </div>
     );
 };

@@ -1,16 +1,29 @@
-.work-img{
-    height: 394px;
+.work-div {
+    background-color: #751C57;
 }
-.work-img-size{
-    height: 394px;
-    margin-top: -89px;
+
+.work-div:hover {
+    background-color: #C28FB0;
 }
-@media screen and (max-width:576px) {
-    .work-img{
-        height: 300px;
-    }
-    .work-img-size{
-        height: 300px;
-        margin-top: 0px;
-    }
+
+.work-text {
+    color: white;
+    text-align: center;
+    margin-top: 25%;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+.work-btn {
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid white;
+    padding: 8px 23px;
+}
+
+.work-btn:hover {
+    color: #ec4b46;
+    background-color: white;
+    text-transform: uppercase;
 }
