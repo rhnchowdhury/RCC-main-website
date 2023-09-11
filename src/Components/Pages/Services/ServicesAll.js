@@ -1,98 +1,116 @@
 import React from 'react';
-import img1 from '../../../services/buying.jpg';
-import img2 from '../../../services/content.png';
-import img3 from '../../../services/ecosystem.png';
+import img1 from '../../../logo/add-operation.png';
+import img2 from '../../../logo/graphics.png';
+import img3 from '../../../logo/eco.png';
+
 import img4 from '../../../services/marketing.png';
 import img5 from '../../../services/development.png';
 import img6 from '../../../services/influnce.jpg';
+import { FaCheck, IconName } from "react-icons/fa";
+import './servicesAll.css';
 
 const ServicesAll = () => {
     return (
-        <section className='my-5'>
-            <div className="hero">
-                <div className="hero-content flex-col lg:flex-row">
-                    <img src={img1} alt='' className="max-w-md rounded-lg" />
-                    <div className='ml-12'>
-                        <h1 className="text-5xl font-bold">Media Buying:</h1>
-                        <p className="mt-12">Digital Media buying involves researching, selecting, negotiating, and executing media buys to reach a specific target audience and achieve the desired marketing goals.
-                            <br /> <span className='font-bold'>1. Page Promotion:</span> Increasing the visibility, reach, and engagement of a specific webpage or website on various online platforms. It aims to attract more visitors, generate higher traffic, and achieve specific marketing or business goals.
-                            <br /> <span className='font-bold'>2. Product advertising:</span> Promoting and marketing a specific product or service to potential customers.
-                            <br /> <span className='font-bold' >3. Post promotion:</span> Promoting or boosting a post on social media platforms. It involves allocating a certain budget to advertise the post, targeting specific demographics or user segments, and utilising various promotional tools and features offered by the social media platform.
-                            Lead Generation: Identifying and attracting potential customers or leads for a business with the goal of converting them into paying customers.
-                        </p>
+        <section className='serviceAll-section'>
+            <div className='serviceAll-header'>
+                <div className='serviceAll-header-bg'>
+                </div>
+                <div >
+                    <div className='flex'>
+                        <h1 className='text-style'>Services</h1>
+                        <span className='text-style-div'>
+                            <h3 className='text-style-2'>Since Our Earliest Days lorem ipsum dolor sit amet, elit. Ut elit tellus, luctus, erat sed fermentum feugiat.</h3>
+                        </span>
                     </div>
                 </div>
             </div>
-            <div className="hero my-12">
-                <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img src={img2} alt='' className="max-w-md rounded-lg shadow-2xl" />
-                    <div className='ml-12'>
-                        <h1 className="text-5xl font-bold">Content Management:</h1>
-                        <p className="mt-12">Our team of expert plan, strategize and create contents according to your business needs. Moreover, we do page/group moderation through monitoring and controlling user generated content on website, social media platforms or other online communities.
-                            <br /> <span className='font-bold'>1. Page Moderation:</span>Monitoring and controlling the content that is posted on a webpage or social media platform. It involves reviewing and managing user-generated content, such as comments, messages, and posts, to ensure that they comply with the platform's guidelines and community standards.
-                            <br /> <span className='font-bold'>2. Creative Content:</span> Unleashing the power of imagination and using it to create something original and engaging that resonates with people on a deeper level.
-                            <br /> <span className='font-bold' >3. Query management:</span>Handling and organising queries or requests from various sources, such as customers, clients, or users. It involves capturing, categorising, prioritising, and resolving queries efficiently and effectively.
-                        </p>
+            <div className='serviceAll-mid'>
+                <div className='serviceAll-back-overlay'>
+                </div>
+                <div className='serviceAll-div mx-40 mt-28'>
+                    <div >
+                        <h6 className='serviceAll-paragraph'>WHAT WE DO</h6>
+                        <h1 className=' serviceAll-title'>We work on <br /> awesome projects <br /> with etiam sed <br /> pharetra.</h1>
+                    </div>
+                    <div className='mt-72 ml-20'>
+                        <h4 className='serviceAll-head-four'>Digital Experiences</h4>
+                        <h6 className='serviceAll-paragraph mt-6'>Proin gravida nibh vel velit auctor aliquet. Aenean <br /> sollicitudin, lorem quis bibendum auctor, nisi elit <br /> consequat ipsum, nec sagittis sem nibh id elit. Duis <br /> sed odio sit amet nibh vulputate cursus a sit amet mauris.</h6>
+                        <div className='ml-10 mt-12 space-y-3'>
+                            <h6 className='serviceAll-six'><FaCheck className='check-icon mt-1'></FaCheck> GREAT DESIGN</h6>
+                            <h6 className='serviceAll-six'><FaCheck className='check-icon mt-1'></FaCheck>Experience</h6>
+                            <h6 className='serviceAll-six'><FaCheck className='check-icon mt-1'></FaCheck> Value</h6>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className="hero">
-                <div className="hero-content flex-col lg:flex-row">
-                    <img src={img3} alt='' className="max-w-md rounded-lg shadow-2xl" />
-                    <div className='ml-12'>
-                        <h1 className="text-5xl font-bold">Digital Ecosystem:</h1>
-                        <p className="mt-12">Digital ecosystems can help your business to grow on digital advertising platforms with an interconnected and integrated system consisting of brand guidelines, improving customer experiences, and gathering customer behaviour data, website traffic data, lead conversion, and the effectiveness of your online promotion.
-                            <br /> <span className='font-bold'>1. Brand Guidelines</span>
-                            <br /> <span className='font-bold'>2. Google, Facebook. Instagram, Linkedin, YouTube ads</span>
-                            <br /> <span className='font-bold'>3. Facebook pixel</span>
-                            <br /> <span className='font-bold'>4. Google Analytics Integration</span>
-                            <br /> <span className='font-bold'>5. Facebook and Instagram Shop set up </span>
-                            <br /> <span className='font-bold'>6. Website Development</span>
-                        </p>
+            <div style={{ backgroundColor: '#222222' }}>
+                <div className='grid grid-cols-2 gap-4 mx-20' >
+                    <div className='serviceAll-mid-div'>
+                        <div className='serviceAll-element'>
+                            <img src={img1} alt="" className='serviceAll-icon ' />
+                            <h1 className='serviceAll-text'>Ads & Optimization</h1>
+                            <p className='mt-20 serviceAll-paragraph'>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+                                <br />
+                                Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div className="hero my-12">
-                <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img src={img4} alt='' className="max-w-md rounded-lg shadow-2xl" />
-                    <div className='ml-12'>
-                        <h1 className="text-5xl font-bold">Digital Marketing:</h1>
-                        <p className="mt-12">Social media marketing involves creating and implementing marketing strategies on various social media platforms like Facebook, Instagram, Twitter, LinkedIn, etc. The goal is to engage with the audience, build brand awareness, drive traffic to the website, and ultimately convert followers into customers.
-                            <br /> <span className='font-bold'>1. Social Media Marketing:</span>Social media marketing includes both organic content posting and paid advertising. Content Marketing: Content marketing focuses on creating valuable, relevant, and informative content to attract and engage a target audience.
-                            <br /> <span className='font-bold'>2. Pay-Per-Click Advertising (PPC):</span> Managing online ad campaigns on platforms like Google Ads, Bing Ads, or social media platforms.
-                        </p>
+                    <div className='serviceAll-mid-div' style={{ backgroundColor: '#C28FB0' }}>
+                        <div className='serviceAll-element'>
+                            <img src={img2} alt="" className='serviceAll-icon ' />
+                            <h1 className='serviceAll-text'>Graphic Design</h1>
+                            <p className='mt-20 serviceAll-paragraph'>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+                                <br />
+                                Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div className="hero my-12">
-                <div className="hero-content flex-col lg:flex-row">
-                    <img src={img5} alt='' className="max-w-md rounded-lg shadow-2xl" />
-                    <div className='ml-12'>
-                        <h1 className="text-5xl font-bold">Website Design & Development:</h1>
-                        <p className="mt-12">Website design and development involve creating and building websites, encompassing everything from the visual appearance and layout to the functionality and performance.Creating responsive and user-friendly websites. Website optimization for better user experience and conversion rates.
-                            <br />
-                            <br /> Depending on the agreement with the client, the marketing agency might also be responsible for promoting the website through various online marketing channels such as SEO, social media, email marketing, and paid advertising.
-                            <br />
-                            <br /> Website design and development can be done by skilled teams with expertise in web development languages.
-                        </p>
+                    <div className='serviceAll-mid-div' style={{ backgroundColor: '#C28FB0' }}>
+                        <div className='serviceAll-element'>
+                            <img src={img3} alt="" className='serviceAll-icon ' />
+                            <h1 className='serviceAll-text'>Digital Eco System</h1>
+                            <p className='mt-20 serviceAll-paragraph'>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+                                <br />
+                                Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div className="hero my-12">
-                <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img src={img6} alt='' className="max-w-md rounded-lg shadow-2xl" />
-                    <div className='ml-12'>
-                        <h1 className="text-5xl font-bold">Influencer Marketing:</h1>
-                        <p className="mt-12">Influencer marketing involves collaborating with influential individuals, to promote products, services, or brands to their audience. These influencers have established credibility and a large following in a specific niche or industry, and their opinions and recommendations can significantly impact their followers' purchasing decisions.
-                            <br />
-                            <br />Understand our client's goals and what they want to achieve through influencer marketing. Increasing brand awareness, driving website traffic, generating leads, or boosting sales.
-                            <br />
-                            <br />Promote authentic influencer content aligning with client guidelines and campaign goals for trust and engagement.
-                        </p>
+                    <div className='serviceAll-mid-div'>
+                        <div className='serviceAll-element'>
+                            <img src={img3} alt="" className='serviceAll-icon ' />
+                            <h1 className='serviceAll-text'>Digital Eco System</h1>
+                            <p className='mt-20 serviceAll-paragraph'>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+                                <br />
+                                Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div className='serviceAll-mid-div' >
+                        <div className='serviceAll-element'>
+                            <img src={img3} alt="" className='serviceAll-icon ' />
+                            <h1 className='serviceAll-text'>Digital Eco System</h1>
+                            <p className='mt-20 serviceAll-paragraph'>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+                                <br />
+                                Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div className='serviceAll-mid-div' style={{ backgroundColor: '#C28FB0' }}>
+                        <div className='serviceAll-element'>
+                            <img src={img3} alt="" className='serviceAll-icon ' />
+                            <h1 className='serviceAll-text'>Digital Eco System</h1>
+                            <p className='mt-20 serviceAll-paragraph'>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+                                <br />
+                                Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
+
     );
 };
 

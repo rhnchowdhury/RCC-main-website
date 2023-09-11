@@ -51,154 +51,166 @@ import './WorkAll.css';
 
 const WorkAll = () => {
     return (
-        <div className='work-bg-img'>
-            <div className='grid grid-cols-5 gap-3 p-16'>
-                <div>
-                    <img src={img1} alt="" className='img-style' />
+        <section className='workAll-section'>
+            <div className='workAll-header'>
+                <div className='workAll-header-bg'>
                 </div>
-                <div>
-                    <img src={img2} alt="" className='h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img3} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img4} alt="" className='h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img5} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img6} alt="" className='-mt-12 h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img7} alt="" className='  img-style' />
-                </div>
-                <div>
-                    <img src={img8} alt="" className='-mt-12 h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img9} alt="" className=' img-style' />
-                </div>
-                <div>
-                    <img src={img10} alt="" className='-mt-12 h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img11} alt="" className='h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img12} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img13} alt="" className='h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img14} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img15} alt="" className='h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img16} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img17} alt="" className='-mt-12 h-72  img-style' />
-                </div>
-                <div>
-                    <img src={img18} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img19} alt="" className='-mt-12 h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img20} alt="" className='h-60 img-style' />
-                </div>
-                <div>
-                    <img src={img21} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img22} alt="" className=' h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img23} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img24} alt="" className='h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img25} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img26} alt="" className='-mt-14 h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img27} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img28} alt="" className='-mt-14 h-72  img-style' />
-                </div>
-                <div>
-                    <img src={img29} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img30} alt="" className='-mt-14 h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img31} alt="" className='h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img32} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img33} alt="" className='h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img34} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img35} alt="" className='h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img36} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img37} alt="" className='-mt-14 h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img38} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img39} alt="" className='-mt-14 h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img40} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img41} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img42} alt="" className='h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img43} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img44} alt="" className='h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img45} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img46} alt="" className='-mt-14 h-72 img-style' />
-                </div>
-                <div>
-                    <img src={img47} alt="" className='img-style' />
-                </div>
-                <div>
-                    <img src={img48} alt="" className='-mt-14 h-72 img-style' />
+                <div >
+                    <div className='flex'>
+                        <h1 className='text-style'>All Work</h1>
+                        <span className='text-style-div'>
+                            <h3 className='text-style-2'>Reach out and connect with us! <br /> Whether you have questions, <br /> feedback, or simply
+                                want to <br /> get in touch,  we're here to <br /> listen and assist.</h3>
+                        </span>
+                    </div>
                 </div>
             </div>
-        </div>
+            <div className='grid grid-cols-5'>
+                <div>
+                    <img src={img1} alt="" />
+                </div>
+                <div>
+                    <img src={img2} alt="" />
+                </div>
+                <div>
+                    <img src={img3} alt="" />
+                </div>
+                <div>
+                    <img src={img4} alt="" />
+                </div>
+                <div>
+                    <img src={img5} alt="" />
+                </div>
+                <div>
+                    <img src={img6} alt="" />
+                </div>
+                <div>
+                    <img src={img7} alt="" />
+                </div>
+                <div>
+                    <img src={img8} alt="" />
+                </div>
+                <div>
+                    <img src={img9} alt="" />
+                </div>
+                <div>
+                    <img src={img10} alt="" />
+                </div>
+                <div>
+                    <img src={img11} alt="" />
+                </div>
+                <div>
+                    <img src={img12} alt="" />
+                </div>
+                <div>
+                    <img src={img13} alt="" />
+                </div>
+                <div>
+                    <img src={img14} alt="" />
+                </div>
+                <div>
+                    <img src={img15} alt="" />
+                </div>
+                <div>
+                    <img src={img16} alt="" />
+                </div>
+                <div>
+                    <img src={img17} alt="" />
+                </div>
+                <div>
+                    <img src={img18} alt="" />
+                </div>
+                <div>
+                    <img src={img19} alt="" />
+                </div>
+                {/* <div>
+                    <img src={img20} alt="" />
+                </div> */}
+                <div>
+                    <img src={img21} alt="" />
+                </div>
+                <div>
+                    <img src={img22} alt="" />
+                </div>
+                <div>
+                    <img src={img23} alt="" />
+                </div>
+                <div>
+                    <img src={img24} alt="" />
+                </div>
+                <div>
+                    <img src={img25} alt="" />
+                </div>
+                <div>
+                    <img src={img26} alt="" />
+                </div>
+                <div>
+                    <img src={img27} alt="" />
+                </div>
+                <div>
+                    <img src={img28} alt="" />
+                </div>
+                <div>
+                    <img src={img29} alt="" />
+                </div>
+                <div>
+                    <img src={img30} alt="" />
+                </div>
+                <div>
+                    <img src={img31} alt="" />
+                </div>
+                <div>
+                    <img src={img32} alt="" />
+                </div>
+                <div>
+                    <img src={img33} alt="" />
+                </div>
+                <div>
+                    <img src={img34} alt="" />
+                </div>
+                <div>
+                    <img src={img35} alt="" />
+                </div>
+                <div>
+                    <img src={img36} alt="" />
+                </div>
+                {/* <div>
+                    <img src={img37} alt="" />
+                </div> */}
+                {/* <div>
+                    <img src={img38} alt="" />
+                </div> */}
+                {/* <div>
+                    <img src={img39} alt="" />
+                </div> */}
+                {/* <div>
+                    <img src={img40} alt="" />
+                </div> */}
+                {/* <div>
+                    <img src={img41} alt="" />
+                </div> */}
+                {/* <div>
+                    <img src={img42} alt="" />
+                </div> */}
+                <div>
+                    <img src={img43} alt="" />
+                </div>
+
+                <div>
+                    <img src={img45} alt="" />
+                </div>
+                <div>
+                    <img src={img46} alt="" />
+                </div>
+                {/* <div>
+                    <img src={img47} alt="" />
+                </div> */}
+                {/* <div>
+                    <img src={img48} alt="" />
+                </div> */}
+            </div>
+        </section>
+
     );
 };
 
