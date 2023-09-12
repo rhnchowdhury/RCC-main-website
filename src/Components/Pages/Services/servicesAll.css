@@ -44,6 +44,25 @@
     position: absolute;
 }
 
+.serviceAll-mid-style {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #222222 0%, rgba(0, 0, 0, 0.1) 100%);
+    height: 380px;
+}
+
+.serviceAll-mid-style-bg {
+    background-image: url(/src/Icon/bg-girl.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .03;
+    transition: background .3s, border-radius .3s, opacity .3s;
+    height: 380px;
+    width: 100%;
+    position: absolute;
+}
+
 .serviceAll-title {
     color: white;
     font-size: 3rem;
@@ -68,8 +87,6 @@
     display: flex;
     color: white;
     text-transform: uppercase;
-    /* line-height: 2em; */
-
 }
 
 .check-icon {
@@ -93,7 +110,7 @@
 
 .serviceAll-icon {
     width: 70px;
-    /* color: white; */
+
 }
 
 .serviceAll-text {

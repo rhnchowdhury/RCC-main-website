@@ -1,12 +1,11 @@
 import React from 'react';
 import img1 from '../../../logo/add-operation.png';
-import img2 from '../../../logo/graphics.png';
-import img3 from '../../../logo/eco.png';
-
-import img4 from '../../../services/marketing.png';
-import img5 from '../../../services/development.png';
-import img6 from '../../../services/influnce.jpg';
-import { FaCheck, IconName } from "react-icons/fa";
+import img2 from '../../../logo/eco.png';
+import img3 from '../../../logo/content.png';
+import img4 from '../../../logo/influencer.png';
+import img5 from '../../../logo/media buying.png';
+import img6 from '../../../logo/photo-video.png';
+import { FaCheck } from "react-icons/fa";
 import './servicesAll.css';
 
 const ServicesAll = () => {
@@ -58,7 +57,7 @@ const ServicesAll = () => {
                     <div className='serviceAll-mid-div' style={{ backgroundColor: '#C28FB0' }}>
                         <div className='serviceAll-element'>
                             <img src={img2} alt="" className='serviceAll-icon ' />
-                            <h1 className='serviceAll-text'>Graphic Design</h1>
+                            <h1 className='serviceAll-text'>Digital Eco System</h1>
                             <p className='mt-20 serviceAll-paragraph'>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
                                 <br />
@@ -68,7 +67,7 @@ const ServicesAll = () => {
                     <div className='serviceAll-mid-div' style={{ backgroundColor: '#C28FB0' }}>
                         <div className='serviceAll-element'>
                             <img src={img3} alt="" className='serviceAll-icon ' />
-                            <h1 className='serviceAll-text'>Digital Eco System</h1>
+                            <h1 className='serviceAll-text'>Content Management</h1>
                             <p className='mt-20 serviceAll-paragraph'>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
                                 <br />
@@ -77,8 +76,8 @@ const ServicesAll = () => {
                     </div>
                     <div className='serviceAll-mid-div'>
                         <div className='serviceAll-element'>
-                            <img src={img3} alt="" className='serviceAll-icon ' />
-                            <h1 className='serviceAll-text'>Digital Eco System</h1>
+                            <img src={img4} alt="" className='serviceAll-icon ' />
+                            <h1 className='serviceAll-text'>Influencer Marketing</h1>
                             <p className='mt-20 serviceAll-paragraph'>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
                                 <br />
@@ -87,8 +86,8 @@ const ServicesAll = () => {
                     </div>
                     <div className='serviceAll-mid-div' >
                         <div className='serviceAll-element'>
-                            <img src={img3} alt="" className='serviceAll-icon ' />
-                            <h1 className='serviceAll-text'>Digital Eco System</h1>
+                            <img src={img5} alt="" className='serviceAll-icon ' />
+                            <h1 className='serviceAll-text'>Media Buying</h1>
                             <p className='mt-20 serviceAll-paragraph'>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
                                 <br />
@@ -97,13 +96,22 @@ const ServicesAll = () => {
                     </div>
                     <div className='serviceAll-mid-div' style={{ backgroundColor: '#C28FB0' }}>
                         <div className='serviceAll-element'>
-                            <img src={img3} alt="" className='serviceAll-icon ' />
-                            <h1 className='serviceAll-text'>Digital Eco System</h1>
+                            <img src={img6} alt="" className='serviceAll-icon ' />
+                            <h1 className='serviceAll-text'>Photo & Video Production</h1>
                             <p className='mt-20 serviceAll-paragraph'>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
                                 <br />
                                 Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
+                    </div>
+                </div>
+                <div className='serviceAll-mid-style'>
+                    <div className='serviceAll-mid-style-bg'>
+                    </div>
+                    <div className='mx-40 py-16'>
+                        <p className='serviceAll-paragraph'>VISION & INNOVATION</p>
+                        <h1 className='serviceAll-text mt-4'>We merge Advertising and <br /> Marketing to engage lorem ipsum <br /> dolor sit amet, consectetur elit.</h1>
+                        <button className="head-btn mt-5 head-text">GET IN TOUCH</button>
                     </div>
                 </div>
             </div>

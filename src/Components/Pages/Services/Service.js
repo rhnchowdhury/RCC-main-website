@@ -2,7 +2,7 @@ import React from 'react';
 import './service.css';
 import img1 from '../../../logo/add-operation.png';
 import img2 from '../../../logo/graphics.png';
-import img3 from '../../../logo/eco.png';
+import img3 from '../../../logo/media buying.png';
 import img4 from '../../../logo/test.jpg';
 import { Link } from 'react-router-dom';
 import { BsFacebook, BsInstagram, BsLinkedin } from 'react-icons/bs';
@@ -28,7 +28,7 @@ const Service = () => {
                 <div className='service-div'>
                     <div className='service-element'>
                         <img src={img3} alt="" className='service-icon text-white' />
-                        <h1 className='service-text'>Digital Eco System</h1>
+                        <h1 className='service-text'>Media Buying</h1>
                         <p className='service-paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus.</p>
                     </div>
                 </div>
