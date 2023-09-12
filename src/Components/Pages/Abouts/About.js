@@ -1,4 +1,5 @@
 import React from 'react';
+import './about.css';
 import { SlLink } from "react-icons/sl";
 import { GoBroadcast } from "react-icons/go";
 import { AiOutlineHeart } from "react-icons/ai";
@@ -6,29 +7,33 @@ import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
-        <section className='m-8'>
-            <h1 className='font-bold text-4xl'>ABOUT US</h1>
-            <div className='flex gap-24 mt-5'>
-                <div>
-                    <h3>After being one of the most dynamic digital agencies in Bangladesh, RainCloud has expanded its wings and evolved into a fully-fledged 360 Marketing agency. Our mission is to deliver performance marketing objectives. Our expert teams are dedicated to advance your Brand’s performance, from strategy to execution. The dynamic team is a growing mashup of creative, technical, marketing & sales people. Over the years we have managed numerous brands both International and local, which gave the team priceless insights, knowledge and experience.</h3>
-                    <Link to='/service'><button className="btn btn-outline px-8 mt-5" style={{ border: '4px solid #000' }}>Our Services</button></Link>
+        <section className='about-section'>
+            <div className='about-header'>
+                <div className='about-header-bg'>
                 </div>
-                <div className='grid grid-cols-2 gap-6'>
-                    <div>
-                        <GoBroadcast className='w-8 h-12'></GoBroadcast>
-                        <h1>OUR GOAL</h1>
-                        <p>Deliver measurable and impactful results for our clients. Assist our clients in achieving their business objectives, expanding market reach, or building a strong brand presence.</p>
+                <div >
+                    <div className='flex'>
+                        <h1 className='about-text-style'>About</h1>
+                        <span>
+                            <h3 className='about-text-style-2'>Since Our Earliest Days lorem <br /> ipsum dolor sit amet, elit. Ut <br /> elit tellus, luctus, erat sed <br /> fermentum feugiat.</h3>
+                        </span>
                     </div>
-
-                    <div>
-                        <AiOutlineHeart className='w-8 h-12'></AiOutlineHeart>
-                        <h1>OUR PASSION</h1>
-                        <p>Our passion lies in the transformative power of marketing to elevate brands, connect businesses with their target audiences, and drive sustainable growth.</p>
+                </div>
+            </div>
+            <div style={{ backgroundColor: '#222222' }}>
+                <div className='flex mx-32 pt-20'>
+                    <div className=''>
+                        <p className='about-paragraph'>A FEW WORDS ABOUT US</p>
+                        <h1 className='about-title'>We have become one of the best advertising etiam sed pharetra.
+                        </h1>
                     </div>
-                    <div>
-                        <SlLink className='w-8 h-12'></SlLink>
-                        <h1>OUR PURPOSE</h1>
-                        <p>Help businesses promote their products or services effectively and reach their target audience.</p>
+                    <div className='mt-60'>
+                        <h6 className='about-header-six'>We think different...</h6>
+                        <p className='about-paragraph'>
+                            Proin gravida nibh vel velit auctor aliquet. <br /> Aenean sollicitudin, lorem quis bibendum auctor, <br /> nisi elit consequat ipsum, nec sagittis sem nibh <br /> id elit. Duis sed odio sit amet nibh vulputate <br /> cursus a sit amet.
+                            <br /><br />
+                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet.
+                        </p>
                     </div>
                 </div>
             </div>
