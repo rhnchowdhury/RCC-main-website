@@ -20,16 +20,22 @@ import { Link } from 'react-router-dom';
 
 const Team = () => {
     return (
-        <section className='m-20'>
-            <p className='text-center'>CREATIVE MINDS</p>
-            <div className='text-center'>
-                <h1 className=" text-4xl font-medium">Our Team</h1>
-                {/* <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio cumque <br /> tempora hic optio quasi assumenda.</p> */}
-                <p className='mt-4'>We pride ourselves on being a dynamic and innovative group of professionals dedicated <br /> to delivering exceptional results for our clients.</p>
+        <section className='team-section'>
+            <div className='team-header'>
+                <div className='team-header-bg'>
+                </div>
+                <div >
+                    <div className='flex'>
+                        <h1 className='team-text-style'>Our Teams</h1>
+                        <span>
+                            <h3 className='team-text-style-2'>Reach out and connect with us! <br /> Whether you have questions, <br /> feedback, or simply
+                                want to <br /> get in touch,  we're here to <br /> listen and assist.</h3>
+                        </span>
+                    </div>
+                </div>
             </div>
-
-            <div className="carousel w-full mt-5">
-                <div id="slide1" className="carousel-item relative w-full space-x-1.5">
+            <div className='py-12' style={{ backgroundColor: '#222222' }}>
+                <div className='grid grid-cols-3 gap-8 m-16' >
                     <div className='img-edit'>
                         <img src={img1} alt='' className="w-96" />
                         <div className='overlay'>
@@ -56,12 +62,6 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-10 top-1/2">
-                        <a href="#slide5" className="btn btn-circle">❮</a>
-                        <a href="#slide2" className="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide2" className="carousel-item relative w-full space-x-1.5">
                     <div className='img-edit'>
                         <img src={img4} alt='' className="w-96" />
                         <div className='overlay'>
@@ -89,12 +89,6 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-10 top-1/2">
-                        <a href="#slide1" className="btn btn-circle">❮</a>
-                        <a href="#slide3" className="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide3" className="carousel-item relative w-full space-x-1.5">
                     <div className='img-edit'>
                         <img src={img12} alt='' className="w-96" />
                         <div className='overlay'>
@@ -122,12 +116,6 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-10 top-1/2">
-                        <a href="#slide2" className="btn btn-circle">❮</a>
-                        <a href="#slide4" className="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide4" className="carousel-item relative w-full space-x-1.5">
                     <div className='img-edit'>
                         <img src={img10} alt='' className="w-96" />
                         <div className='overlay'>
@@ -155,12 +143,6 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-10 top-1/2">
-                        <a href="#slide3" className="btn btn-circle">❮</a>
-                        <a href="#slide5" className="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide5" className="carousel-item relative w-full space-x-1.5">
                     <div className='img-edit'>
                         <img src={img13} alt='' className="w-96" />
                         <div className='overlay'>
@@ -179,21 +161,9 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='img-edit'>
-                        <img src={img2} alt='' className="w-96" />
-                        <div className='overlay'>
-                            <div>
-                                <Link to='https://www.linkedin.com/in/fahmeda-gulzar/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
-                                <Link to='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=fahmeda.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-10 top-1/2">
-                        <a href="#slide4" className="btn btn-circle">❮</a>
-                        <a href="#slide1" className="btn btn-circle">❯</a>
-                    </div>
-                </div>
 
+
+                </div>
             </div>
         </section>
     );
