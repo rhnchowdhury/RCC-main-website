@@ -4,3 +4,9 @@
     display: flex;
     position: relative;
 }
+
+.list-edit {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}

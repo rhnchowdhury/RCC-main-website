@@ -16,17 +16,19 @@ const NavBar = () => {
                         <li><Link to='/' className='text-white'>Home</Link></li>
                         <li><Link to='/about' className='text-white'>About</Link></li>
                         <li><Link to='/service' className='text-white'>Services</Link></li>
+
                         <li><Link to='/contact' className='text-white'>Contact</Link></li>
                     </ul>
                 </div>
-                <Link><img src={icon} className=' w-32' alt="" /></Link>
+                <Link><img src={icon} className='ml-12 w-40 h-8' alt="" /></Link>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><Link to='/' className='text-white'>Home</Link></li>
-                    <li><Link to='/about' className='text-white'>About</Link></li>
-                    <li><Link to='/service' className='text-white'>Services</Link></li>
-                    <li><Link to='/contact' className='text-white'>Contact</Link></li>
+                    <li><button><Link to='/' className='list-edit'>Home</Link></button></li>
+                    <li><button><Link to='/about' className='list-edit'>About</Link></button></li>
+                    <li><button><Link to='/service' className='list-edit'>Services</Link></button></li>
+                    <li><button><Link to='/team' className='list-edit'>Team</Link></button></li>
+                    <li><button><Link to='/contact' className='list-edit'>Contact</Link></button></li>
                 </ul>
             </div>
         </div>
