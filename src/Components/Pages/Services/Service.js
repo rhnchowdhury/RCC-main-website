@@ -10,7 +10,7 @@ import { BsFacebook, BsInstagram, BsLinkedin } from 'react-icons/bs';
 const Service = () => {
     return (
         <section className='p-12' style={{ backgroundColor: '#222222' }}>
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-3 mx-16'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-3 lg:mx-16'>
                 <div className='service-div'>
                     <div className='service-element'>
                         <img src={img1} alt="" className='service-icon text-white' />

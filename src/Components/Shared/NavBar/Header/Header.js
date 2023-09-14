@@ -7,7 +7,7 @@ const Header = () => {
             <div className='head-part '>
                 <div className='head-part-bg'>
                 </div>
-                <div className='ml-32 pt-56'>
+                <div className='ml-20 lg:ml-32 pt-56'>
                     <div >
                         <h6 className='head-text-six'>ADVERTISING & MARKETING AGENCY</h6>
                         <h1 className='head-text-one'>We help <br /> brands Grow <br /> Beautifully</h1>
