@@ -48,3 +48,32 @@
 .service-social-btn:hover {
     background-color: #b89430;
 }
+
+/*********************** Responsive for Mobile device ************************/
+
+@media only screen and (max-width: 576px) {
+    .service-div {
+
+        background-color: #751C57;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .service-text {
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .service-paragraph {
+        color: whitesmoke;
+        text-align: right;
+        margin: 15% 3% 0% 25%;
+        /* margin: 20% 5% 0% 35%; */
+        padding: 0 0 50px;
+        font-size: 12px;
+        font-weight: 300;
+
+    }
+}

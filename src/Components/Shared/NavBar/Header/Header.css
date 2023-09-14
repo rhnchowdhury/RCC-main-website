@@ -55,3 +55,43 @@
 .head-text:hover {
     color: #ec4b46;
 }
+
+
+/* Responsive for mobile device */
+
+
+@media only screen and (max-width: 576px) {
+    .head-part {
+        background-color: black;
+        height: 550px;
+    }
+
+    .head-part-bg {
+        background-image: url(/src/Icon/header-img.png);
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.30;
+        height: 550px;
+        width: 100%;
+        position: absolute;
+
+    }
+
+    .head-text-one {
+        color: white;
+        font-size: 3rem;
+        font-weight: 500;
+        mix-blend-mode: exclusion;
+        line-height: 1.1em;
+    }
+
+    .head-text-six {
+        color: white;
+        font-size: 0.5em;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+}

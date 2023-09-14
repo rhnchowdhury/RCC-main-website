@@ -38,7 +38,7 @@ const Work = () => {
                     </div>
                     <div className='work-div'>
                         <h1 className='work-text'>See Our All <br /> Works Here</h1>
-                        <div className='flex justify-center mt-5'>
+                        <div className='work-div-btn'>
                             <Link to='/work'><button className="work-btn">See All</button></Link>
                         </div>
                     </div>

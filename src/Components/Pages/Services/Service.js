@@ -10,7 +10,7 @@ import { BsFacebook, BsInstagram, BsLinkedin } from 'react-icons/bs';
 const Service = () => {
     return (
         <section className='p-12' style={{ backgroundColor: '#222222' }}>
-            <div className='grid grid-cols-3 gap-3 mx-16'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-3 mx-16'>
                 <div className='service-div'>
                     <div className='service-element'>
                         <img src={img1} alt="" className='service-icon text-white' />
@@ -37,10 +37,10 @@ const Service = () => {
                 <Link to='/service'><button className="service-btn">SEE ALL</button></Link>
             </div>
             <div>
-                <div className="hero mt-32">
+                <div className="hero mt-20 lg:mt-32">
                     <div className="hero-content flex-col lg:flex-row-reverse">
                         <div>
-                            <img src={img4} alt='' className="max-w-sm shadow-2xl" />
+                            <img src={img4} alt='' className="lg:max-w-sm shadow-2xl" />
                             <div className='mt-5'>
                                 <div className="space-x-3">
                                     <button className=' service-social-btn '><Link to='https://www.facebook.com/Raincloudcommunications' target="_blank" rel="noopener noreferrer"><BsFacebook className='w-5 h-5 mx-auto'></BsFacebook></Link> </button>
@@ -49,10 +49,9 @@ const Service = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='mr-24'>
-                            <h1 className="text-5xl text-white font-bold -mt-72 leading-[3.5rem]">We are an <br /> Advertising & <br /> Marketing firm.</h1>
+                        <div className='lg:mr-24'>
+                            <h1 className="text-3xl lg:text-5xl text-white font-bold lg:-mt-72 lg:leading-[3.5rem]">We are an <br /> Advertising & <br /> Marketing firm.</h1>
                             <p className="py-6 text-white">Sed non mauris vitae erat consequat auctor eu in elit. Class <br /> aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
-
                         </div>
                     </div>
                 </div>

@@ -10,3 +10,17 @@
     font-size: medium;
     font-weight: bold;
 }
+
+.web-logo {
+    margin-left: 48px;
+    width: 160px;
+    height: 32px;
+}
+
+@media only screen and (max-width: 576px) {
+    .web-logo {
+        margin-left: 150px;
+        width: 160px;
+        height: 32px;
+    }
+}

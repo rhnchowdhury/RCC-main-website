@@ -15,6 +15,12 @@
     line-height: 1.2em;
 }
 
+.work-div-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .work-btn {
     color: white;
     text-transform: uppercase;
@@ -26,4 +32,22 @@
     color: #ec4b46;
     background-color: white;
     text-transform: uppercase;
+}
+
+/*********************** Responsive for Mobile device ************************/
+
+@media only screen and (max-width: 576px) {
+    .work-text {
+        color: white;
+        text-align: center;
+        margin-top: 15%;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .work-div-btn {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 35px;
+    }
 }
