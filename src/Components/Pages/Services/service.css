@@ -49,7 +49,7 @@
     background-color: #b89430;
 }
 
-/*********************** Responsive for Mobile device ************************/
+/******************************************* Responsive for Mobile device ***************************************/
 
 @media only screen and (max-width: 576px) {
     .service-div {

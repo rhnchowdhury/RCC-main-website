@@ -19,6 +19,10 @@
     position: absolute;
 }
 
+.about-head-div {
+    display: flex;
+}
+
 .about-text-style {
     color: white;
     font-size: 200px;
@@ -55,6 +59,11 @@
     font-weight: 600;
 }
 
+.about-mid-head-part {
+    display: flex;
+    padding-top: 64px;
+}
+
 .about-mid-div {
     display: flex;
     margin-top: 350px;
@@ -82,4 +91,110 @@
 .about-last-div-text {
     padding-top: 350px;
     margin-left: 250px;
+}
+
+/******************************************* Responsive for Mobile device ***************************************/
+
+
+@media only screen and (max-width: 576px) {
+    .about-header {
+        background-color: black;
+        height: 400px;
+    }
+
+    .about-header-bg {
+        background-image: url(/src/Icon/8.webp);
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.9;
+        height: 400px;
+        width: 100%;
+        position: absolute;
+    }
+
+    .about-head-div {
+        display: block;
+    }
+
+    .about-text-style {
+        color: white;
+        font-size: 80px;
+        font-weight: 600;
+        mix-blend-mode: difference;
+        padding-top: 60px;
+        margin-left: 50px;
+    }
+
+    .about-text-style-2 {
+        color: white;
+        font-size: 16px;
+        font-weight: 200;
+        mix-blend-mode: difference;
+        text-align: end;
+        margin-top: -4px;
+    }
+
+    .about-paragraph {
+        color: white;
+        font-size: 0.9em;
+        font-weight: 400;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .about-title {
+        color: white;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .about-mid-head-part {
+        display: block;
+    }
+
+    .about-header-six {
+        color: white;
+        font-size: 1.875rem;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .about-mid-div {
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 5px;
+
+    }
+
+    .about-img-size {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .about-last-div {
+        background-color: black;
+        height: 400px;
+    }
+
+    .about-last-div-bg {
+        background-image: url(/src/Icon/bg-about-dark.jpg);
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: .1;
+        height: 400px;
+        width: 100%;
+        position: absolute;
+    }
+
+    .about-last-div-text {
+        padding-top: 40px;
+        margin-left: 0px;
+    }
 }
