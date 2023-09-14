@@ -45,13 +45,9 @@ const About = () => {
                 <div className='about-last-div-bg'>
                 </div>
                 <div >
-                    {/* <div className='about-last-div-text'>
-                        <p >A TRUE PARTNERSHIP</p>
-                        <h1 >Our client list speaks for itself sed <br /> non mauris vitae erat consequat <br /> auctor eu in elit class aptent.</h1>
-                    </div> */}
                     <div className='about-last-div-text'>
                         <p className='about-paragraph'>A TRUE PARTNERSHIP</p>
-                        <h1 className='about-header-six'>Our client list speaks for itself sed <br /> non mauris vitae erat consequat <br /> auctor eu in elit class aptent.</h1>
+                        <h1 className='about-last-text'>Our client list speaks for itself sed <br /> non mauris vitae erat consequat <br /> auctor eu in elit class aptent.</h1>
                     </div>
                 </div>
             </div>
