@@ -42,9 +42,13 @@
 .contact-div {
     display: flex;
     position: relative;
+    margin-left: 128px;
+    margin-right: 128px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
-.text-style {
+.contact-text-style {
     color: white;
     font-size: 200px;
     font-weight: 600;
@@ -53,7 +57,7 @@
     margin-left: 140px;
 }
 
-.text-style-2 {
+.contact-text-style-2 {
     color: white;
     font-size: 35px;
     font-weight: 600;
@@ -68,6 +72,8 @@
 
 .message-div {
     background-image: linear-gradient(90deg, #000000, rgba(255, 255, 255, 0.2) 190%);
+    margin-top: 176px;
+    padding: 64px;
 }
 
 .btn-design {
@@ -91,6 +97,7 @@
 }
 
 .contact-title {
+    color: white;
     line-height: 1.25em;
     font-size: 3rem;
     font-weight: 600;
@@ -111,4 +118,59 @@
 /******************************************* Responsive for Mobile device ***************************************/
 
 
-@media only screen and (max-width: 576px) {}
+@media only screen and (max-width: 576px) {
+    .contact-header {
+        background-color: black;
+        height: 500px;
+    }
+
+    .contact-header-bg {
+        background-image: url(/src/Icon/7aa54073-c44b-43b3-af22-06abaf47e536.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.30;
+        height: 500px;
+        width: 100%;
+        position: absolute;
+    }
+
+    .contact-text-style {
+        color: white;
+        font-size: 80px;
+        font-weight: 600;
+        mix-blend-mode: difference;
+        padding-top: 60px;
+        margin-left: 50px;
+    }
+
+    .contact-text-style-2 {
+        color: white;
+        font-size: 16px;
+        font-weight: 200;
+        mix-blend-mode: difference;
+        text-align: end;
+        margin-top: 230px;
+    }
+
+    .contact-div {
+        display: block;
+        position: relative;
+        margin-left: 28px;
+        margin-right: 28px;
+        padding-top: 40px;
+    }
+
+    .contact-title {
+        color: white;
+        font-size: 1.875rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .message-div {
+        background-image: linear-gradient(90deg, #000000, rgba(255, 255, 255, 0.2) 190%);
+        margin-top: 50px;
+    }
+}
