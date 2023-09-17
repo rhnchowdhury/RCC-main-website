@@ -28,13 +28,12 @@ const ServicesAll = () => {
                 </div>
                 <div className='serviceAll-div'>
                     <div >
-                        <h6 className='serviceAll-paragraph'>WHAT WE DO</h6>
-                        {/* <h1 className=' serviceAll-title'>We work on awesome <span className='span-text'></span> projects with etiam <span></span> sed pharetra.</h1> */}
+                        <h6 className='serviceAll-paragraph-sm'>WHAT WE DO</h6>
                         <h1 className=' serviceAll-title'>We work on awesome projects with etiam <br /> sed pharetra.</h1>
                     </div>
                     <div className='lg:mt-72 lg:ml-20'>
                         <h4 className='serviceAll-head-four'>Digital Experiences</h4>
-                        <h6 className='serviceAll-paragraph mt-6'>Proin gravida nibh vel velit auctor aliquet. Aenean <br /> sollicitudin, lorem quis bibendum auctor, nisi elit <br /> consequat ipsum, nec sagittis sem nibh id elit. Duis <br /> sed odio sit amet nibh vulputate cursus a sit amet mauris.</h6>
+                        <h6 className='serviceAll-paragraph-sm mt-6'>Proin gravida nibh vel velit auctor aliquet. Aenean <br /> sollicitudin, lorem quis bibendum auctor, nisi elit <br /> consequat ipsum, nec sagittis sem nibh id elit. Duis <br /> sed odio sit amet nibh vulputate cursus a sit amet mauris.</h6>
                         <div className='lg:ml-10 lg:mt-12 lg:space-y-3'>
                             <h6 className='serviceAll-six'><FaCheck className='check-icon mt-1'></FaCheck> GREAT DESIGN</h6>
                             <h6 className='serviceAll-six'><FaCheck className='check-icon mt-1'></FaCheck>Experience</h6>

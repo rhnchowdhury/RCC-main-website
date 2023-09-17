@@ -98,6 +98,13 @@
     letter-spacing: 2px;
 }
 
+.serviceAll-paragraph-sm {
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
 .serviceAll-head-four {
     color: white;
     font-size: 25px;
@@ -170,7 +177,7 @@
 
     .serviceAll-header {
         background-color: black;
-        height: 400px;
+        height: 500px;
     }
 
     .serviceAll-header-bg {
@@ -180,7 +187,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         opacity: 0.30;
-        height: 400px;
+        height: 500px;
         width: 100%;
         position: absolute;
     }
@@ -206,7 +213,7 @@
     .serviceAll-mid {
         background-color: #676767;
         background-image: linear-gradient(90deg, #494949 0%, #000000 100%);
-        height: 1100px;
+        height: 550px;
     }
 
     .serviceAll-back-overlay {
@@ -218,7 +225,7 @@
         background-repeat: no-repeat;
         opacity: .05;
         transition: background .3s, border-radius .3s, opacity .3s;
-        height: 1100px;
+        height: 550px;
         width: 100%;
         left: 0;
         position: absolute;
@@ -230,24 +237,40 @@
 
     .serviceAll-title {
         color: white;
-        font-size: 1.5rem;
-        letter-spacing: 2px;
+        font-size: 1.2rem;
+        margin-left: -130px;
         font-weight: 600;
     }
 
     .serviceAll-paragraph {
         color: white;
-        font-size: 0.9em;
+        text-align: center;
+        font-size: 10px;
         font-weight: 300;
         letter-spacing: 2px;
+    }
+
+    .serviceAll-paragraph-sm {
+        color: white;
+        font-size: 0.6em;
+        font-weight: 300;
+        margin-left: -120px;
     }
 
     .serviceAll-head-four {
         color: white;
         margin-top: 20px;
-        font-size: 20px;
+        margin-left: -90px;
+        font-size: 17px;
         font-weight: 500;
-        text-align: center;
+    }
+
+    .serviceAll-six {
+        color: white;
+        margin-top: 5px;
+        margin-left: -50px;
+        font-size: 15px;
+        font-weight: 200;
     }
 
     .serviceAll-mid-div {
@@ -262,20 +285,5 @@
         font-size: 20px;
         font-weight: 400;
         text-align: center;
-    }
-
-    .serviceAll-paragraph {
-        color: white;
-        font-size: 12px;
-        font-weight: 300;
-        letter-spacing: 2px;
-    }
-
-    .serviceAll-paragraph {
-        color: white;
-        text-align: center;
-        font-size: 10px;
-        font-weight: 300;
-        letter-spacing: 2px;
     }
 }

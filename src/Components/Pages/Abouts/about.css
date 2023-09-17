@@ -105,7 +105,7 @@
 @media only screen and (max-width: 576px) {
     .about-header {
         background-color: black;
-        height: 400px;
+        height: 500px;
     }
 
     .about-header-bg {
@@ -115,7 +115,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         opacity: 0.9;
-        height: 400px;
+        height: 500px;
         width: 100%;
         position: absolute;
     }

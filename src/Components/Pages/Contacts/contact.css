@@ -106,3 +106,9 @@
     outline: none;
 
 }
+
+
+/******************************************* Responsive for Mobile device ***************************************/
+
+
+@media only screen and (max-width: 576px) {}
