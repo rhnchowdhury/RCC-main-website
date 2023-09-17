@@ -20,7 +20,7 @@ const NavBar = () => {
                         <li><Link to='/contact' className='text-white'>Contact</Link></li>
                     </ul>
                 </div>
-                <Link><img src={icon} className='web-logo' alt="" /></Link>
+                <Link ><img src={icon} className='web-logo' alt="" /></Link>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

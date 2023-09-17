@@ -11,7 +11,7 @@ const Contact = () => {
                 <div >
                     <div className='flex'>
                         <h1 className='contact-text-style'>Contact</h1>
-                        <span className='contact-text-style-div'>
+                        <span>
                             <h3 className='contact-text-style-2'>Reach out and connect with us! <br /> Whether you have questions, <br /> feedback, or simply
                                 want to <br /> get in touch,  we're here to <br /> listen and assist.</h3>
                         </span>
