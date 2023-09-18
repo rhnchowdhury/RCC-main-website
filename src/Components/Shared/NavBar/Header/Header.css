@@ -8,9 +8,11 @@
 }
 
 .head-part-bg {
-    background-image: url(/src/Icon/header-img.png);
+    background-image: url(/src/Icon/a42d0003-bf32-4015-a095-a92b9705c679.png);
+    /* background-image: url(/src/Icon/3974732.png); */
     background-attachment: fixed;
     background-position: center center;
+    background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.30;
     height: 700px;
@@ -67,7 +69,7 @@
     }
 
     .head-part-bg {
-        background-image: url(/src/Icon/header-img.png);
+        background-image: url(/src/Icon/a42d0003-bf32-4015-a095-a92b9705c679.png);
         background-attachment: fixed;
         background-position: center center;
         background-size: cover;

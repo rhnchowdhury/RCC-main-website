@@ -48,16 +48,16 @@ const WorkAll = () => {
                 <div className='workAll-header-bg'>
                 </div>
                 <div >
-                    <div className='flex'>
-                        <h1 className='text-style'>All Work</h1>
-                        <span className='text-style-div'>
-                            <h3 className='text-style-2'>Reach out and connect with us! <br /> Whether you have questions, <br /> feedback, or simply
+                    <div className='workAll-header-div'>
+                        <h1 className='workAll-text-style'>All Work</h1>
+                        <span>
+                            <h3 className='workAll-text-style-2'>Reach out and connect with us! <br /> Whether you have questions, <br /> feedback, or simply
                                 want to <br /> get in touch,  we're here to <br /> listen and assist.</h3>
                         </span>
                     </div>
                 </div>
             </div>
-            <div className='grid grid-cols-5'>
+            <div className='grid grid-cols-2 lg:grid-cols-5'>
                 <div>
                     <img src={img1} alt="" className='img-style' />
                 </div>
