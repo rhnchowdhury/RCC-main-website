@@ -35,7 +35,7 @@ const Team = () => {
                 </div>
             </div>
             <div className='py-12' style={{ backgroundColor: '#222222' }}>
-                <div className='grid grid-cols-3 gap-8 m-16' >
+                <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 m-16' >
                     <div className='img-edit'>
                         <img src={img1} alt='' className="w-96" />
                         <div className='overlay'>

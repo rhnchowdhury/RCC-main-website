@@ -85,3 +85,45 @@
         opacity: 1;
     }
 }
+
+
+/******************************************* Responsive for Mobile device ***************************************/
+
+
+@media only screen and (max-width: 576px) {
+    .team-header {
+        background-color: black;
+        height: 500px;
+    }
+
+    .team-header-bg {
+        background-image: url(/src/Icon/team-bg-2.avif);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.30;
+        height: 500px;
+        width: 100%;
+        position: absolute;
+    }
+
+    .team-text-style {
+        color: white;
+        font-size: 75px;
+        font-weight: 600;
+        mix-blend-mode: difference;
+        padding-top: 70px;
+        margin-left: 20px;
+    }
+
+    .team-text-style-2 {
+        color: white;
+        font-size: 16px;
+        font-weight: 200;
+        mix-blend-mode: difference;
+        text-align: end;
+        margin-top: 250px;
+    }
+
+}
