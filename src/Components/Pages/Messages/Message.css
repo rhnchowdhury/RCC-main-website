@@ -6,6 +6,11 @@
     font-weight: 600;
 }
 
+.message-sec {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .message-box {
     padding: 20px;
     margin-left: 80px;
@@ -37,4 +42,29 @@
 .textarea-box:focus {
     outline: none;
 
+}
+
+
+/******************************************* Responsive for Mobile device ***************************************/
+
+
+@media only screen and (max-width: 576px) {
+    .message-text {
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .message-sec {
+        display: block;
+        /* justify-content: space-evenly; */
+    }
+
+    .message-box {
+        margin-top: 10px;
+        /* margin: 10px; */
+        margin-left: 1px;
+    }
 }

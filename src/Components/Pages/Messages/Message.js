@@ -8,9 +8,9 @@ const Message = () => {
     return (
         <section style={{ backgroundColor: '#222222' }}>
             <h1 className='message-text py-8'>Contact Us</h1>
-            <div className='flex justify-evenly'>
+            <div className='message-sec'>
                 <div>
-                    <div className='mt-12'>
+                    <div className='lg:mt-12 mx-10 lg:mx-0'>
                         <div className='flex'>
                             <FaLocationDot className='icon mt-1'></FaLocationDot>
                             <p className='text-white text-base lg:font-bold ml-2'>Rangs Shawpnil, Level 5, House 2, Road ⅔,  Banani, Dhaka 1213</p>
@@ -21,7 +21,7 @@ const Message = () => {
                         </div>
                         <div className='flex'>
                             <IoCallSharp className='icon mt-1'></IoCallSharp>
-                            <a href="tel:+8801779983246" className='text-white text-base lg:font-bold ml-2'>Call Now</a>
+                            <a href="tel:+8801716688069" className='text-white text-base lg:font-bold ml-2'>Call Now</a>
                         </div>
                     </div>
                 </div>
