@@ -32,13 +32,99 @@ import './Client.css';
 
 const Client = () => {
     return (
-        <section className='bg-black p-32'>
-            <h5 className='text-white text-center text-lg font-semibold'>Our Clients</h5>
-            <div className='grid grid-cols-4'>
-                <div className='client-img'>
-                    <img src={img1} alt="" />
+        <section className='bg-black py-8'>
+            <h5 className='client-text'>Our Clients</h5>
+            <div className='slider'>
+                <div className='slide-track'>
+                    <div className='slide'>
+                        <img src={img1} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img2} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img3} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img4} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img5} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img6} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img7} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img8} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img9} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img10} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img11} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img12} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img13} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img14} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img15} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img16} alt="" className='bg-red-400' />
+                    </div>
+                    <div className='slide'>
+                        <img src={img17} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img18} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img19} alt="" className='img-change' />
+                    </div>
+                    <div className='slide'>
+                        <img src={img20} alt="" className='img-change' />
+                    </div>
+                    <div className='slide'>
+                        <img src={img21} alt="" className='img-change' />
+                    </div>
+                    <div className='slide'>
+                        <img src={img22} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img23} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img24} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img25} alt="" className='bg-slate-300' />
+                    </div>
+                    <div className='slide'>
+                        <img src={img26} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img27} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img28} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img29} alt="" />
+                    </div>
                 </div>
-            </div>
+            </div >
         </section>
 
 

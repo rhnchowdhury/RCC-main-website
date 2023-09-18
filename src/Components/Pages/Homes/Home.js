@@ -1,9 +1,9 @@
 import React from 'react';
 import Service from '../Services/Service';
-import Team from '../Teams/Team';
 import Client from '../Clients/Client';
 import Header from '../../Shared/NavBar/Header/Header';
 import Work from '../Works/Work';
+import Message from '../Messages/Message';
 
 const Home = () => {
     return (
@@ -12,7 +12,7 @@ const Home = () => {
             <Service></Service>
             <Client></Client>
             <Work></Work>
-            {/* <Team></Team> */}
+            <Message></Message>
         </div>
     );
 };
