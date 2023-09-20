@@ -15,7 +15,6 @@ const Header = () => {
                     </div>
                     <Link to='/service'><button className="head-btn mt-6 head-text">GET STARTED NOW</button></Link>
                 </div>
-
             </div>
         </section>
     );

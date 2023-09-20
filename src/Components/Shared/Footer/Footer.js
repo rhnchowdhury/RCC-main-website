@@ -1,10 +1,13 @@
 import React from 'react';
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { Link } from 'react-router-dom';
+import ScrollToTop from "react-scroll-to-top";
+import './Footer.css';
 
 const Footer = () => {
     return (
         <div style={{ backgroundColor: "#222222" }}>
+            <ScrollToTop smooth top='1000' color='white' style={{ border: "2px solid #DEC87C", backgroundColor: '#DEC77B', display: 'flex', justifyContent: 'center' }} />
             <footer className="footer footer-center p-5 text-base-content" style={{ backgroundColor: '#222222', borderTop: '1px solid rgba(255,255,255,0.2)' }}>
                 <div className='mt-4'>
                     <div className="grid grid-flow-col gap-4">
