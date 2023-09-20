@@ -37,6 +37,14 @@
     line-height: 1.1em;
 }
 
+.head-text-two {
+    color: white;
+    font-size: 3.6rem;
+    font-weight: 400;
+    mix-blend-mode: exclusion;
+    line-height: 1.1em;
+}
+
 .head-btn {
     border: 2px solid whitesmoke;
     padding: 8px;
@@ -84,6 +92,14 @@
     .head-text-one {
         color: white;
         font-size: 3rem;
+        font-weight: 500;
+        mix-blend-mode: exclusion;
+        line-height: 1.1em;
+    }
+
+    .head-text-two {
+        color: white;
+        font-size: 1.7rem;
         font-weight: 500;
         mix-blend-mode: exclusion;
         line-height: 1.1em;

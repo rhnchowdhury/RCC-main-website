@@ -59,12 +59,10 @@
 
     .message-sec {
         display: block;
-        /* justify-content: space-evenly; */
     }
 
     .message-box {
         margin-top: 10px;
-        /* margin: 10px; */
         margin-left: 1px;
     }
 }

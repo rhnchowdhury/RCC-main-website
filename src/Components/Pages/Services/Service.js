@@ -13,14 +13,14 @@ const Service = () => {
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-3 lg:mx-16'>
                 <div className='service-div'>
                     <div className='service-element'>
-                        <img src={img1} alt="" className='service-icon text-white' />
-                        <h1 className='service-text'>Ads & Optimization</h1>
+                        <img src={img1} alt="" className='service-icon' />
+                        <h1 className='service-text'>Media Buying</h1>
                         <p className='service-paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus.</p>
                     </div>
                 </div>
                 <div className='service-div' style={{ backgroundColor: '#C28FB0' }}>
                     <div className='service-element'>
-                        <img src={img2} alt="" className='service-icon text-white' />
+                        <img src={img2} alt="" className='service-icon' />
                         <h1 className='service-text'>Graphic Design</h1>
                         <p className='service-paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus.</p>
                     </div>
@@ -28,7 +28,7 @@ const Service = () => {
                 <div className='service-div'>
                     <div className='service-element'>
                         <img src={img3} alt="" className='service-icon text-white' />
-                        <h1 className='service-text'>Media Buying</h1>
+                        <h1 className='service-text'>Content Strategy</h1>
                         <p className='service-paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus.</p>
                     </div>
                 </div>

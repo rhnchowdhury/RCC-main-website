@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -10,9 +11,9 @@ const Header = () => {
                 <div className='ml-20 lg:ml-32 pt-56'>
                     <div >
                         <h6 className='head-text-six'>ADVERTISING & MARKETING AGENCY</h6>
-                        <h1 className='head-text-one'>We help <br /> brands Grow <br /> Beautifully</h1>
+                        <h1 className='head-text-one'>We Help <br /> Brands Grow <br /> <span className='head-text-two'>To Their Full Potential</span></h1>
                     </div>
-                    <button className="head-btn mt-5 head-text">GET STARTED NOW</button>
+                    <Link to='/service'><button className="head-btn mt-6 head-text">GET STARTED NOW</button></Link>
                 </div>
 
             </div>
