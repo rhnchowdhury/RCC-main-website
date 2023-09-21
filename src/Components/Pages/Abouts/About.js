@@ -12,7 +12,7 @@ const About = () => {
                     <div className='about-head-div'>
                         <h1 className='about-text-style'>About</h1>
                         <span>
-                            <h3 className='about-text-style-2'>Since Our Earliest Days lorem <br /> ipsum dolor sit amet, elit. Ut <br /> elit tellus, luctus, erat sed <br /> fermentum feugiat.</h3>
+                            <h3 className='about-text-style-2'>We are a dynamic and results-driven <br /> 360 marketing agency dedicated <br /> to propelling your business to <br /> new heights in the digital age.</h3>
                         </span>
                     </div>
                 </div>

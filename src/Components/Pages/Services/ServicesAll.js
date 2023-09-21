@@ -1,10 +1,12 @@
 import React from 'react';
-import img1 from '../../../logo/add-operation.png';
-import img2 from '../../../logo/eco.png';
-import img3 from '../../../logo/content.png';
-import img4 from '../../../logo/influencer.png';
+import img1 from '../../../logo/content.png';
+import img2 from '../../../logo/influencer.png';
+import img3 from '../../../logo/eco.png';
+import img4 from '../../../logo/photo-video.png';
 import img5 from '../../../logo/media buying.png';
-import img6 from '../../../logo/photo-video.png';
+import img6 from '../../../logo/brand.png';
+import img7 from '../../../logo/query.png';
+import img8 from '../../../logo/printing.png';
 import { FaCheck } from "react-icons/fa";
 import './servicesAll.css';
 import { Link } from 'react-router-dom';
@@ -108,34 +110,35 @@ const ServicesAll = () => {
                     <div className='serviceAll-mid-div' style={{ backgroundColor: '#C28FB0' }}>
                         <div className='serviceAll-element'>
                             <img src={img6} alt="" className='serviceAll-icon ' />
-                            <h1 className='serviceAll-text'>Photo & Video Production</h1>
+                            <h1 className='serviceAll-text'>Brand Activation</h1>
                             <p className='mt-10 lg:mt-20 serviceAll-paragraph'>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+                                We create engaging, memorable experiences that resonate with the target audience, fostering brand loyalty, and driving increased awareness and sales.
                                 <br />
-                                Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                Through carefully crafted campaigns, and digital initiatives, we transform brands from static concepts into vibrant, interactive entities.
+                            </p>
                         </div>
                     </div>
-                    <div className='serviceAll-mid-div' >
+                    <div className='serviceAll-mid-div' style={{ backgroundColor: '#C28FB0' }}>
                         <div className='serviceAll-element'>
-                            <img src={img5} alt="" className='serviceAll-icon ' />
-                            <h1 className='serviceAll-text'>Media Buying & Ads Optimization</h1>
+                            <img src={img7} alt="" className='serviceAll-icon text-red-700' />
+                            <h1 className='serviceAll-text'>Query Management</h1>
                             <p className='mt-10 lg:mt-20 serviceAll-paragraph'>
-                                We specialise in strategic media buying and advertising solutions that drive results. From optimising ad placements to crafting compelling creatives,
+                                We  involve efficiently handling and responding to client inquiries, requests, and questions. This service ensures timely communication,
                                 <br />
-                                we help businesses reach their target audience effectively and maximise their ROI in the ever-evolving media landscape.
+                                addresses client concerns, and helps maintain strong client relationships, contributing to the agency's success in delivering effective solutions.
                             </p>
                         </div>
                     </div>
                     <div className='serviceAll-mid-div' >
                         <div className='serviceAll-element'>
-                            <img src={img5} alt="" className='serviceAll-icon ' />
+                            <img src={img8} alt="" className='serviceAll-icon ' />
                             <h1 className='serviceAll-text'>Printing & Production</h1>
                             <p className='mt-10 lg:mt-20 serviceAll-paragraph'>
-                                We  involve efficiently handling and responding to client inquiries, requests, and questions. This essential service ensures timely communication, addresses client concerns,
+                                We bring your marketing materials to life through top-notch printing, packaging, and manufacturing processes,
                                 <br />
-                                and helps maintain strong client relationships, contributing to the agency's success in delivering effective solutions.
+                                ensuring every detail shines, from brochures and banners to promotional products and branded merchandise.
                             </p>
-                            <div className='flex justify-end'>
+                            <div className='flex justify-end mt-3'>
                                 <Link><button className='text-white border px-3 py-1 hover:bg-white hover:text-[#ec4b46]'>See More</button></Link>
                             </div>
                         </div>

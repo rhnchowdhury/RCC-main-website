@@ -19,9 +19,8 @@ const Message = () => {
                             <MdOutlineForwardToInbox className='icon mt-1'></MdOutlineForwardToInbox>
                             <p className='text-white text-base lg:font-bold ml-2'>raincloud.hr@gmail.com</p>
                         </div>
-                        <div className='flex'>
-                            <IoCallSharp className='icon mt-1'></IoCallSharp>
-                            <a href="tel:+8801716688069" className='text-white text-base lg:font-bold ml-2'>Call Now</a>
+                        <div>
+                            <a href="tel:+8801740506012" className='text-white text-base lg:font-bold flex'><IoCallSharp className='icon'></IoCallSharp><p className='ml-2'>Call Now: +8801740506012</p></a>
                         </div>
                     </div>
                 </div>
