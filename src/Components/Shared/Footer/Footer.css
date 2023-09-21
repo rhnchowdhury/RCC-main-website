@@ -1,3 +1,13 @@
 svg {
     margin-top: 5px;
 }
+
+
+/******************************************* Responsive for Mobile device ***************************************/
+
+
+@media only screen and (max-width: 576px) {
+    .scroll-to-top {
+        right: 20px;
+    }
+}

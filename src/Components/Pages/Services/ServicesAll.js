@@ -7,6 +7,7 @@ import img5 from '../../../logo/media buying.png';
 import img6 from '../../../logo/photo-video.png';
 import { FaCheck } from "react-icons/fa";
 import './servicesAll.css';
+import { Link } from 'react-router-dom';
 
 const ServicesAll = () => {
     return (
@@ -47,51 +48,61 @@ const ServicesAll = () => {
                     <div className='serviceAll-mid-div'>
                         <div className='serviceAll-element'>
                             <img src={img1} alt="" className='serviceAll-icon ' />
-                            <h1 className='serviceAll-text'>Ads & Optimization</h1>
+                            <h1 className='serviceAll-text'>Content Strategy</h1>
                             <p className='mt-10 lg:mt-20 serviceAll-paragraph'>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+                                Our team of expert plan, strategies and create contents according to your business needs.
                                 <br />
-                                Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                Moreover, we do page/group moderation through monitoring and controlling user generated content on websites, social media platforms or other online communities.
+                            </p>
+                            <div className='flex justify-end'>
+                                <Link><button className='text-white border px-3 py-1 hover:bg-white hover:text-[#ec4b46]'>See More</button></Link>
+                            </div>
                         </div>
                     </div>
                     <div className='serviceAll-mid-div' style={{ backgroundColor: '#C28FB0' }}>
                         <div className='serviceAll-element'>
                             <img src={img2} alt="" className='serviceAll-icon ' />
-                            <h1 className='serviceAll-text'>Digital Eco System</h1>
+                            <h1 className='serviceAll-text'>Influencer & PR Marketing</h1>
                             <p className='mt-10 lg:mt-20 serviceAll-paragraph'>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+                                Our specialise in leveraging the power of influencers and strategic public relations to enhance your brand's visibility, credibility, and engagement.
                                 <br />
-                                Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                From identifying key influencers, we help you connect with your target audience and leave a lasting impression in today's competitive market.
+                            </p>
                         </div>
                     </div>
                     <div className='serviceAll-mid-div' style={{ backgroundColor: '#C28FB0' }}>
                         <div className='serviceAll-element'>
                             <img src={img3} alt="" className='serviceAll-icon ' />
-                            <h1 className='serviceAll-text'>Content Management</h1>
+                            <h1 className='serviceAll-text'>Digital Eco System Creation</h1>
                             <p className='mt-10 lg:mt-20 serviceAll-paragraph'>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+                                We can help your business to grow on digital advertising platforms with an interconnected and integrated system consisting of brand guidelines,
                                 <br />
-                                Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                improving customer experiences, and gathering customer behaviour data, website traffic data, and  lead conversion.
+                            </p>
                         </div>
                     </div>
                     <div className='serviceAll-mid-div'>
                         <div className='serviceAll-element'>
                             <img src={img4} alt="" className='serviceAll-icon ' />
-                            <h1 className='serviceAll-text'>Influencer Marketing</h1>
+                            <h1 className='serviceAll-text'>Photography & Cinematography</h1>
                             <p className='mt-10 lg:mt-20 serviceAll-paragraph'>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+                                From stunning visuals to captivating storytelling, our amazing team  specialise in crafting
                                 <br />
-                                Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                compelling imagery and videos that leave a lasting impression. Let us bring your brand to life through the lens.</p>
+                            <div className='flex justify-end mt-4'>
+                                <Link><button className='text-white border px-3 py-1 hover:bg-white hover:text-[#ec4b46]'>See More</button></Link>
+                            </div>
                         </div>
                     </div>
                     <div className='serviceAll-mid-div' >
                         <div className='serviceAll-element'>
                             <img src={img5} alt="" className='serviceAll-icon ' />
-                            <h1 className='serviceAll-text'>Media Buying</h1>
+                            <h1 className='serviceAll-text'>Media Buying & Ads Optimization</h1>
                             <p className='mt-10 lg:mt-20 serviceAll-paragraph'>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+                                We specialise in strategic media buying and advertising solutions that drive results. From optimising ad placements to crafting compelling creatives,
                                 <br />
-                                Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                we help businesses reach their target audience effectively and maximise their ROI in the ever-evolving media landscape.
+                            </p>
                         </div>
                     </div>
                     <div className='serviceAll-mid-div' style={{ backgroundColor: '#C28FB0' }}>
@@ -102,6 +113,31 @@ const ServicesAll = () => {
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
                                 <br />
                                 Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div className='serviceAll-mid-div' >
+                        <div className='serviceAll-element'>
+                            <img src={img5} alt="" className='serviceAll-icon ' />
+                            <h1 className='serviceAll-text'>Media Buying & Ads Optimization</h1>
+                            <p className='mt-10 lg:mt-20 serviceAll-paragraph'>
+                                We specialise in strategic media buying and advertising solutions that drive results. From optimising ad placements to crafting compelling creatives,
+                                <br />
+                                we help businesses reach their target audience effectively and maximise their ROI in the ever-evolving media landscape.
+                            </p>
+                        </div>
+                    </div>
+                    <div className='serviceAll-mid-div' >
+                        <div className='serviceAll-element'>
+                            <img src={img5} alt="" className='serviceAll-icon ' />
+                            <h1 className='serviceAll-text'>Printing & Production</h1>
+                            <p className='mt-10 lg:mt-20 serviceAll-paragraph'>
+                                We  involve efficiently handling and responding to client inquiries, requests, and questions. This essential service ensures timely communication, addresses client concerns,
+                                <br />
+                                and helps maintain strong client relationships, contributing to the agency's success in delivering effective solutions.
+                            </p>
+                            <div className='flex justify-end'>
+                                <Link><button className='text-white border px-3 py-1 hover:bg-white hover:text-[#ec4b46]'>See More</button></Link>
+                            </div>
                         </div>
                     </div>
                 </div>
