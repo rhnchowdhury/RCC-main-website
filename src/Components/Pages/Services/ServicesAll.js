@@ -21,8 +21,7 @@ const ServicesAll = () => {
                     <div className='flex'>
                         <h1 className='serviceAll-text-style'>Services</h1>
                         <span>
-                            <h3 className='serviceAll-text-style-2'>Since Our Earliest Days lorem ipsum dolor sit amet, elit. Ut elit tellus, luctus, erat sed fermentum feugiat.</h3>
-                        </span>
+                            <h3 className='serviceAll-text-style-2'>Explore our comprehensive range of services that will not only meet your marketing needs but exceed your expectations.</h3>                        </span>
                     </div>
                 </div>
             </div>

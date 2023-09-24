@@ -38,6 +38,13 @@
     padding: 8px 23px;
 }
 
+.service-btn:hover {
+    color: white;
+    background-color: #C28FB0;
+    border: 1px solid #C28FB0;
+    padding: 8px 23px;
+}
+
 .service-social-btn {
     background-color: #751C57;
     color: white;
