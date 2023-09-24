@@ -18,10 +18,9 @@ const ServicesAll = () => {
                 <div className='serviceAll-header-bg'>
                 </div>
                 <div >
-                    <div className='flex'>
-                        <h1 className='serviceAll-text-style'>Services</h1>
-                        <span>
-                            <h3 className='serviceAll-text-style-2'>Explore our comprehensive range of services that will not only meet your marketing needs but exceed your expectations.</h3>                        </span>
+                    <div className='serviceAll-div-text'>
+                        <h1 className='serviceAll-text-style'>Our Services</h1>
+                        <h3 className='serviceAll-text-style-2'>Explore our comprehensive range of services that will not only meet your marketing needs but exceed your expectations.</h3>
                     </div>
                 </div>
             </div>
@@ -148,8 +147,8 @@ const ServicesAll = () => {
                     </div>
                     <div className='lg:mx-40 py-16'>
                         <p className='serviceAll-paragraph'>VISION & INNOVATION</p>
-                        <h1 className='serviceAll-text mt-4'>We merge Advertising and <br /> Marketing to engage lorem ipsum <br /> dolor sit amet, consectetur elit.</h1>
-                        <div className='flex justify-center'>
+                        <h1 className='serviceAll-text mt-4'>We're all about that creative <br /> hustle, and we're not afraid <br /> to color outside the lines.</h1>
+                        <div className='serviceAll-div-btn'>
                             <button className="serviceAll-btn mt-5 serviceAll-btn-text">GET IN TOUCH</button>
                         </div>
                     </div>

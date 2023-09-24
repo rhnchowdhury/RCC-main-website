@@ -29,7 +29,7 @@ const Service = () => {
                     <div className='service-element'>
                         <img src={img3} alt="" className='service-icon text-white' />
                         <h1 className='service-text'>Content Strategy</h1>
-                        <p className='service-paragraph'>We specialize in creating strategic and effective contents for various digital platforms.</p>
+                        <p className='service-paragraph'>We specialize in creating strategic and effective contents for various digital and social media platforms.</p>
                     </div>
                 </div>
             </div>

@@ -7,12 +7,10 @@
 }
 
 .slider {
-    /* height: 258px; */
     margin: 0 auto;
     position: relative;
     width: 90%;
     display: grid;
-    /* place-items: center; */
     overflow: hidden;
 }
 

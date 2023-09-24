@@ -10,7 +10,7 @@ const About = () => {
                 </div>
                 <div >
                     <div className='about-head-div'>
-                        <h1 className='about-text-style'>About</h1>
+                        <h1 className='about-text-style'>About Us</h1>
                         <span>
                             <h3 className='about-text-style-2'>We are a dynamic and results-driven <br /> 360 marketing agency dedicated <br /> to propelling your business to <br /> new heights in the digital age.</h3>
                         </span>

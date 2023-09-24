@@ -1,5 +1,5 @@
 .serviceAll-section {
-    margin-top: -100px;
+    margin-top: -130px;
 }
 
 .serviceAll-header {
@@ -69,11 +69,11 @@
 
 .serviceAll-text-style {
     color: white;
-    font-size: 200px;
+    font-size: 160px;
     font-weight: 600;
     mix-blend-mode: difference;
-    margin-top: 24px;
-    margin-left: 140px;
+    padding-top: 90px;
+    margin-left: 90px;
 }
 
 .serviceAll-text-style-2 {
@@ -81,8 +81,8 @@
     font-size: 35px;
     font-weight: 600;
     mix-blend-mode: difference;
-    margin-top: 80%;
-    margin-left: -165px;
+    margin-top: 2%;
+    margin-left: 770px;
 }
 
 .serviceAll-title {
@@ -174,6 +174,9 @@
 
 
 @media only screen and (max-width: 576px) {
+    .serviceAll-section {
+        margin-top: -160px;
+    }
 
     .serviceAll-header {
         background-color: black;
@@ -192,13 +195,17 @@
         position: absolute;
     }
 
+    .serviceAll-div-text {
+        display: block;
+    }
+
     .serviceAll-text-style {
         color: white;
-        font-size: 80px;
+        font-size: 65px;
         font-weight: 600;
         mix-blend-mode: difference;
-        margin-top: 80px;
-        margin-left: 50px;
+        margin-top: 90px;
+        margin-left: 30px;
     }
 
     .serviceAll-text-style-2 {
@@ -207,7 +214,8 @@
         font-weight: 200;
         mix-blend-mode: difference;
         text-align: end;
-        margin-top: 210px;
+        margin-left: 150px;
+        margin-top: 70px;
     }
 
     .serviceAll-mid {
@@ -285,5 +293,10 @@
         font-size: 20px;
         font-weight: 400;
         text-align: center;
+    }
+
+    .serviceAll-div-btn {
+        display: flex;
+        justify-content: center;
     }
 }

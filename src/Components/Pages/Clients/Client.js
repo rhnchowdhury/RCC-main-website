@@ -126,9 +126,6 @@ const Client = () => {
                 </div>
             </div >
         </section>
-
-
-
     );
 };
 
