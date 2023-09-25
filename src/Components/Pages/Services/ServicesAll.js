@@ -54,7 +54,7 @@ const ServicesAll = () => {
                                 <br />
                                 Moreover, we do page/group moderation through monitoring and controlling user generated content on websites, social media platforms or other online communities.
                             </p>
-                            <div className='flex justify-end'>
+                            <div className='flex justify-end mt-3 lg:mt-0'>
                                 <Link><button className='text-white border px-3 py-1 hover:bg-white hover:text-[#ec4b46]'>See More</button></Link>
                             </div>
                         </div>

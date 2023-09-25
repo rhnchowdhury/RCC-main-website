@@ -25,10 +25,10 @@ const Team = () => {
                 <div className='team-header-bg'>
                 </div>
                 <div >
-                    <div className='flex'>
+                    <div className='team-text-div'>
                         <h1 className='team-text-style'>Our Teams</h1>
                         <span>
-                            <h3 className='team-text-style-2'>We're more than just a group<br /> of individuals; we're a dynamic<br /> ensemble of creative minds,<br /> strategic thinkers, and <br />digital wizards.</h3>
+                            <h3 className='team-text-style-2'>We're more than just a group of individuals; we're a dynamic ensemble of creative minds, strategic thinkers, and digital wizards.</h3>
                         </span>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const Team = () => {
             <div className='py-12' style={{ backgroundColor: '#222222' }}>
                 <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 m-16' >
                     <div className='img-edit'>
-                        <img src={img1} alt='' className="w-96" />
+                        <img src={img1} alt='' className="w-full" />
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/azfar-rahman-76ba2813b/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
@@ -45,7 +45,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='img-edit'>
-                        <img src={img2} alt='' className="w-96" />
+                        <img src={img2} alt='' className="w-full" />
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/fahmeda-gulzar/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
@@ -53,7 +53,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='img-edit'>
-                        <img src={img3} alt='' className="w-96" />
+                        <img src={img3} alt='' className="w-full" />
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/golam-isnad-ahmed-21433621a/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
@@ -62,7 +62,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='img-edit'>
-                        <img src={img4} alt='' className="w-96" />
+                        <img src={img4} alt='' className="w-full" />
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/yeasin-ahmed-a2893910a/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
@@ -71,7 +71,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='img-edit'>
-                        <img src={img8} alt='' className="w-96" />
+                        <img src={img8} alt='' className="w-full" />
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/moumita-saha-01a352142/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
@@ -80,7 +80,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='img-edit'>
-                        <img src={img5} alt='' className="w-96" />
+                        <img src={img5} alt='' className="w-full" />
                         <div className='overlay'>
                             <div>
                                 <Link to='' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
@@ -89,7 +89,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='img-edit'>
-                        <img src={img12} alt='' className="w-96" />
+                        <img src={img12} alt='' className="w-full" />
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/sadman-al-sadaf-7b700a110/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
@@ -98,7 +98,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='img-edit'>
-                        <img src={img7} alt='' className="w-96" />
+                        <img src={img7} alt='' className="w-full" />
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/ibtid-m-86ab39216/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
@@ -107,7 +107,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='img-edit'>
-                        <img src={img6} alt='' className="w-96" />
+                        <img src={img6} alt='' className="w-full" />
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/mahamudul-hasan-411558237/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
@@ -116,7 +116,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='img-edit'>
-                        <img src={img10} alt='' className="w-96" />
+                        <img src={img10} alt='' className="w-full" />
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/redwanur-rahman-rafi/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
@@ -125,7 +125,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='img-edit'>
-                        <img src={img11} alt='' className="w-96" />
+                        <img src={img11} alt='' className="w-full" />
                         <div className='overlay'>
                             <div>
                                 <Link to='' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
@@ -134,7 +134,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='img-edit'>
-                        <img src={img9} alt='' className="w-96" />
+                        <img src={img9} alt='' className="w-full" />
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/rahman-raad/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
@@ -143,7 +143,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='img-edit'>
-                        <img src={img13} alt='' className="w-96" />
+                        <img src={img13} alt='' className="w-full" />
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/sharif-hossain-25357a237/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
@@ -152,7 +152,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='img-edit'>
-                        <img src={img14} alt='' className="w-96" />
+                        <img src={img14} alt='' className="w-full" />
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/muktadirul-islam-35538424b/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>

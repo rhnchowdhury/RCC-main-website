@@ -82,7 +82,7 @@
     font-weight: 600;
     mix-blend-mode: difference;
     margin-top: 2%;
-    margin-left: 770px;
+    margin-left: 780px;
 }
 
 .serviceAll-title {
@@ -205,7 +205,7 @@
         font-weight: 600;
         mix-blend-mode: difference;
         margin-top: 90px;
-        margin-left: 30px;
+        margin-left: 15px;
     }
 
     .serviceAll-text-style-2 {
@@ -214,8 +214,8 @@
         font-weight: 200;
         mix-blend-mode: difference;
         text-align: end;
-        margin-left: 150px;
-        margin-top: 70px;
+        margin-left: 100px;
+        margin-top: 50px;
     }
 
     .serviceAll-mid {

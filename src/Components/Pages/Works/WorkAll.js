@@ -49,10 +49,11 @@ const WorkAll = () => {
                 </div>
                 <div >
                     <div className='workAll-header-div'>
-                        <h1 className='workAll-text-style'>All Work</h1>
+                        <h1 className='workAll-text-style'>Our Works</h1>
                         <span>
-                            <h3 className='workAll-text-style-2'>Reach out and connect with us! <br /> Whether you have questions, <br /> feedback, or simply
-                                want to <br /> get in touch,  we're here to <br /> listen and assist.</h3>
+                            <h3 className='workAll-text-style-2'>Explore our work showcasing our most impactful campaigns and success stories. Get inspired by our passion for turning ideas into realities.</h3>
+                            {/* <h3 className='workAll-text-style-2'>Reach out and connect with us! <br /> Whether you have questions, <br /> feedback, or simply
+                                want to <br /> get in touch,  we're here to <br /> listen and assist.</h3> */}
                         </span>
                     </div>
                 </div>

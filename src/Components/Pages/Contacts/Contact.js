@@ -9,12 +9,10 @@ const Contact = () => {
                 <div className='contact-header-bg'>
                 </div>
                 <div >
-                    <div className='flex'>
+                    <div className='contact-text-div'>
                         <h1 className='contact-text-style'>Contact Us</h1>
-                        <span>
-                            <h3 className='contact-text-style-2'>Reach out and connect with us! <br /> Whether you have questions, <br /> feedback, or simply
-                                want to <br /> get in touch,  we're here to <br /> listen and assist.</h3>
-                        </span>
+                        <h3 className='contact-text-style-2'>Reach out and connect with us! Whether you have questions, feedback, or simply
+                            want to get in touch,  we're here to listen and assist.</h3>
                     </div>
                 </div>
             </div>
