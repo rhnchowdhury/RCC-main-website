@@ -28,8 +28,7 @@ const Team = () => {
                     <div className='flex'>
                         <h1 className='team-text-style'>Our Teams</h1>
                         <span>
-                            <h3 className='team-text-style-2'>Reach out and connect with us! <br /> Whether you have questions, <br /> feedback, or simply
-                                want to <br /> get in touch,  we're here to <br /> listen and assist.</h3>
+                            <h3 className='team-text-style-2'>We're more than just a group<br /> of individuals; we're a dynamic<br /> ensemble of creative minds,<br /> strategic thinkers, and <br />digital wizards.</h3>
                         </span>
                     </div>
                 </div>

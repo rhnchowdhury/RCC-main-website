@@ -50,11 +50,11 @@
 
 .contact-text-style {
     color: white;
-    font-size: 200px;
+    font-size: 160px;
     font-weight: 600;
     mix-blend-mode: difference;
-    margin-top: 24px;
-    margin-left: 140px;
+    margin-top: 70px;
+    margin-left: 60px;
 }
 
 .contact-text-style-2 {
@@ -62,8 +62,7 @@
     font-size: 35px;
     font-weight: 600;
     mix-blend-mode: difference;
-    margin-top: 90%;
-    margin-left: -165px;
+    margin-top: 60%;
 }
 
 .icon {
@@ -138,11 +137,11 @@
 
     .contact-text-style {
         color: white;
-        font-size: 80px;
+        font-size: 65px;
         font-weight: 600;
         mix-blend-mode: difference;
         padding-top: 60px;
-        margin-left: 50px;
+        margin-left: 30px;
     }
 
     .contact-text-style-2 {
@@ -151,7 +150,8 @@
         font-weight: 200;
         mix-blend-mode: difference;
         text-align: end;
-        margin-top: 230px;
+        margin-top: 300px;
+        margin-left: -120px;
     }
 
     .contact-div {
