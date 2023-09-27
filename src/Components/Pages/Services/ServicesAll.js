@@ -7,7 +7,6 @@ import img5 from '../../../logo/media buying.png';
 import img6 from '../../../logo/brand.png';
 import img7 from '../../../logo/query.png';
 import img8 from '../../../logo/printing.png';
-import { FaCheck } from "react-icons/fa";
 import './servicesAll.css';
 import { Link } from 'react-router-dom';
 
@@ -21,25 +20,6 @@ const ServicesAll = () => {
                     <div className='serviceAll-div-text'>
                         <h1 className='serviceAll-text-style'>Our Services</h1>
                         <h3 className='serviceAll-text-style-2'>Explore our comprehensive range of services that will not only meet your marketing needs but exceed your expectations.</h3>
-                    </div>
-                </div>
-            </div>
-            <div className='serviceAll-mid'>
-                <div className='serviceAll-back-overlay'>
-                </div>
-                <div className='serviceAll-div'>
-                    <div >
-                        <h6 className='serviceAll-paragraph-sm'>WHAT WE DO</h6>
-                        <h1 className=' serviceAll-title'>We work on awesome projects with etiam <br /> sed pharetra.</h1>
-                    </div>
-                    <div className='lg:mt-72 lg:ml-20'>
-                        <h4 className='serviceAll-head-four'>Digital Experiences</h4>
-                        <h6 className='serviceAll-paragraph-sm mt-6'>Proin gravida nibh vel velit auctor aliquet. Aenean <br /> sollicitudin, lorem quis bibendum auctor, nisi elit <br /> consequat ipsum, nec sagittis sem nibh id elit. Duis <br /> sed odio sit amet nibh vulputate cursus a sit amet mauris.</h6>
-                        <div className='lg:ml-10 lg:mt-12 lg:space-y-3'>
-                            <h6 className='serviceAll-six'><FaCheck className='check-icon mt-1'></FaCheck> GREAT DESIGN</h6>
-                            <h6 className='serviceAll-six'><FaCheck className='check-icon mt-1'></FaCheck>Experience</h6>
-                            <h6 className='serviceAll-six'><FaCheck className='check-icon mt-1'></FaCheck> Value</h6>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -118,7 +98,7 @@ const ServicesAll = () => {
                     </div>
                     <div className='serviceAll-mid-div' style={{ backgroundColor: '#C28FB0' }}>
                         <div className='serviceAll-element'>
-                            <img src={img7} alt="" className='serviceAll-icon text-red-700' />
+                            <img src={img7} alt="" className='serviceAll-icon' />
                             <h1 className='serviceAll-text'>Query Management</h1>
                             <p className='mt-10 lg:mt-20 serviceAll-paragraph'>
                                 We  involve efficiently handling and responding to client inquiries, requests, and questions. This service ensures timely communication,
@@ -155,9 +135,6 @@ const ServicesAll = () => {
                 </div>
             </div>
         </section>
-
-
-
     );
 };
 

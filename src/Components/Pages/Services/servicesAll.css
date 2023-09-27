@@ -19,35 +19,6 @@
     position: absolute;
 }
 
-.serviceAll-mid {
-    background-color: #676767;
-    background-image: linear-gradient(90deg, #494949 0%, #000000 100%);
-    height: 900px;
-}
-
-.serviceAll-back-overlay {
-
-    background-image: url(/src/Icon/rcc-shadow.png);
-    background-attachment: fixed;
-    background-position: bottom-left;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: .05;
-    transition: background .3s, border-radius .3s, opacity .3s;
-    height: 900px;
-    width: 100%;
-    left: 0;
-    position: absolute;
-}
-
-.serviceAll-div {
-    display: flex;
-    margin-top: 112px;
-    margin-left: 160px;
-    margin-right: 160px;
-    position: absolute;
-}
-
 .serviceAll-mid-style {
     background-color: transparent;
     background-image: linear-gradient(180deg, #222222 0%, rgba(0, 0, 0, 0.1) 100%);
@@ -85,46 +56,11 @@
     margin-left: 780px;
 }
 
-.serviceAll-title {
-    color: white;
-    font-size: 3rem;
-    font-weight: 600;
-}
-
 .serviceAll-paragraph {
     color: white;
     font-size: 15px;
     font-weight: 200;
     letter-spacing: 2px;
-}
-
-.serviceAll-paragraph-sm {
-    color: white;
-    font-size: 15px;
-    font-weight: 200;
-    letter-spacing: 2px;
-}
-
-.serviceAll-head-four {
-    color: white;
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 1.2em;
-}
-
-.serviceAll-six {
-    display: flex;
-    color: white;
-    text-transform: uppercase;
-}
-
-.check-icon {
-    color: #751C57;
-    margin-right: 5%;
-}
-
-.check-icon:hover {
-    color: #C28FB0;
 }
 
 .serviceAll-mid-div {
@@ -218,51 +154,12 @@
         margin-top: 50px;
     }
 
-    .serviceAll-mid {
-        background-color: #676767;
-        background-image: linear-gradient(90deg, #494949 0%, #000000 100%);
-        height: 550px;
-    }
-
-    .serviceAll-back-overlay {
-
-        background-image: url(/src/Icon/rcc-shadow.png);
-        background-attachment: fixed;
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        opacity: .05;
-        transition: background .3s, border-radius .3s, opacity .3s;
-        height: 550px;
-        width: 100%;
-        left: 0;
-        position: absolute;
-    }
-
-    .serviceAll-div {
-        display: block;
-    }
-
-    .serviceAll-title {
-        color: white;
-        font-size: 1.2rem;
-        margin-left: -130px;
-        font-weight: 600;
-    }
-
     .serviceAll-paragraph {
         color: white;
         text-align: center;
         font-size: 10px;
         font-weight: 300;
         letter-spacing: 2px;
-    }
-
-    .serviceAll-paragraph-sm {
-        color: white;
-        font-size: 0.6em;
-        font-weight: 300;
-        margin-left: -120px;
     }
 
     .serviceAll-head-four {
@@ -273,17 +170,8 @@
         font-weight: 500;
     }
 
-    .serviceAll-six {
-        color: white;
-        margin-top: 5px;
-        margin-left: -50px;
-        font-size: 15px;
-        font-weight: 200;
-    }
-
     .serviceAll-mid-div {
         background-color: #751C57;
-
         width: 100%;
         height: 100%;
     }

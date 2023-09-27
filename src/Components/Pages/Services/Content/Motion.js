@@ -30,64 +30,64 @@ const Motion = () => {
             <div className='mt-5'>
                 <h1 className='motion-h1'>Motion Design</h1>
                 <div className='grid grid-cols-1 lg:grid-cols-4 gap-3 m-8'>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls>
                         <source src={vdo1} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls>
                         <source src={vdo2} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls  >
                         <source src={vdo3} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls    >
                         <source src={vdo4} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls >
                         <source src={vdo5} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls >
                         <source src={vdo6} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls >
                         <source src={vdo7} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls >
                         <source src={vdo8} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls >
                         <source src={vdo9} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls >
                         <source src={vdo10} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls >
                         <source src={vdo11} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls >
                         <source src={vdo12} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls >
                         <source src={vdo13} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls >
                         <source src={vdo14} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls >
                         <source src={vdo15} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls >
                         <source src={vdo16} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls >
                         <source src={vdo17} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls >
                         <source src={vdo18} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls >
                         <source src={vdo19} type='video/mp4' />
                     </video>
-                    <video autoPlay loop className='w-96 h-96'>
+                    <video autoPlay loop controls >
                         <source src={vdo20} type='video/mp4' />
                     </video>
                 </div>
