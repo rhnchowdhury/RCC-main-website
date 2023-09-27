@@ -43,21 +43,7 @@ import './WorkAll.css';
 
 const WorkAll = () => {
     return (
-        <section className='workAll-section'>
-            <div className='workAll-header'>
-                <div className='workAll-header-bg'>
-                </div>
-                <div >
-                    <div className='workAll-header-div'>
-                        <h1 className='workAll-text-style'>Our Works</h1>
-                        <span>
-                            <h3 className='workAll-text-style-2'>Explore our work showcasing our most impactful campaigns and success stories. Get inspired by our passion for turning ideas into realities.</h3>
-                            {/* <h3 className='workAll-text-style-2'>Reach out and connect with us! <br /> Whether you have questions, <br /> feedback, or simply
-                                want to <br /> get in touch,  we're here to <br /> listen and assist.</h3> */}
-                        </span>
-                    </div>
-                </div>
-            </div>
+        <section className='mt-12'>
             <div className='grid grid-cols-2 lg:grid-cols-5'>
                 <div>
                     <img src={img1} alt="" className='img-style' />

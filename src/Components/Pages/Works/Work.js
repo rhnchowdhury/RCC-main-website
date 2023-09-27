@@ -15,31 +15,31 @@ const Work = () => {
             <div className=''>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
                     <div className='div-1 '>
-                        <img src={img1} alt="" className='opacity-100 hover:opacity-50' />
+                        <img src={img1} alt="" className=' hover:opacity-50' />
                     </div>
                     <div className=''>
-                        <img src={img2} alt="" className='opacity-100 hover:opacity-50' />
+                        <img src={img2} alt="" className=' hover:opacity-50' />
                     </div>
                     <div >
-                        <img src={img3} alt="" className='opacity-100 hover:opacity-50 ' />
+                        <img src={img3} alt="" className=' hover:opacity-50 ' />
                     </div>
                     <div >
-                        <img src={img4} alt="" className='opacity-100 hover:opacity-50' />
+                        <img src={img4} alt="" className=' hover:opacity-50' />
                     </div>
                     <div >
-                        <img src={img5} alt="" className='opacity-100 hover:opacity-50' />
+                        <img src={img5} alt="" className=' hover:opacity-50' />
                     </div>
 
                     <div >
-                        <img src={img6} alt="" className='opacity-100 hover:opacity-50 ' />
+                        <img src={img6} alt="" className=' hover:opacity-50 ' />
                     </div>
                     <div >
-                        <img src={img7} alt="" className='opacity-100 hover:opacity-50' />
+                        <img src={img7} alt="" className=' hover:opacity-50' />
                     </div>
                     <div className='work-div'>
                         <h1 className='work-text'>See Our All <br /> Works Here</h1>
                         <div className='work-div-btn'>
-                            <Link to='/work'><button className="work-btn">See All</button></Link>
+                            <Link to='/portfolio'><button className="work-btn">See All</button></Link>
                         </div>
                     </div>
                 </div>

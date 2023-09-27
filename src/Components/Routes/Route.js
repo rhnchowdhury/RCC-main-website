@@ -4,8 +4,9 @@ import Home from "../Pages/Homes/Home";
 import Contact from "../Pages/Contacts/Contact";
 import About from "../Pages/Abouts/About";
 import ServicesAll from "../Pages/Services/ServicesAll";
-import WorkAll from "../Pages/Works/WorkAll";
+// import WorkAll from "../Pages/Works/WorkAll";
 import Team from "../Pages/Teams/Team";
+import Motion from "../Pages/Services/Content/Motion";
 
 const router = createBrowserRouter([
     {
@@ -32,9 +33,13 @@ const router = createBrowserRouter([
                 path: '/team',
                 element: <Team></Team>
             },
+            // {
+            //     path: '/work',
+            //     element: <WorkAll></WorkAll>
+            // },
             {
-                path: '/work',
-                element: <WorkAll></WorkAll>
+                path: '/portfolio',
+                element: <Motion></Motion>
             }
         ]
     }
